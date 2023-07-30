@@ -1,0 +1,26 @@
+{
+  "name": "hedgeblog",
+  "version": "0.0.1",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p . && node saki.js",
+    "test": "tsc -p . && node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetstream0/hedgeblog.git"
+  },
+  "author": "jetstream0/prussia",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jetstream0/hedgeblog/issues"
+  },
+  "homepage": "https://github.com/jetstream0/hedgeblog#readme",
+  "dependencies": {
+    "makoto": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}

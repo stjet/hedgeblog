@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[[ post.title ]]</title>
+  </head>
+  <body>
+    [[ component:return ]]
+    <div>
+      <div id="post-info">
+        <h1>[[ post.title ]]</h1>
+        <div>
+          <span><span [[ if:author_expected ]]title="(obviously)"[[ endif ]]>By [[ post.author ]]</span> | <span>[[ post.date ]]</span></span>
+        </div>
+      </div>
+      <input id="show-md" type="checkbox"/><label for="html">Show MD</label>
+      <div id="post-html">
+        [[ html:post.html ]]
+      </div>
+      <div id="post-md">
+        [[ post.md ]]
+      </div>
+    </div>
+  </body>
+</html>

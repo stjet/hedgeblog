@@ -1,0 +1,10 @@
+{
+  "example": {
+    "title": "Example!",
+    "slug": "example",
+    "filename": "example",
+    "date": "30/12/1999",
+    "author": "Prussia",
+    "tags": []
+  }
+}
