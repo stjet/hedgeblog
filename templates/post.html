@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>[[ post.title ]]</title>
+    <link rel="icon" type="image/png" href="/favicon.ico">
   </head>
   <body>
     [[ component:return ]]
@@ -11,7 +12,7 @@
       <div id="post-info">
         <h1>[[ post.title ]]</h1>
         <div>
-          <span><span [[ if:author_expected ]]title="(obviously)"[[ endif ]]>By [[ post.author ]]</span> | <span>[[ post.date ]]</span></span>
+          <span><span [[ if:author_expected ]]title="(obviously)"[[ endif ]]>By [[ post.author ]]</span> | <span>[[ post.date ]]</span> [[ if:post.tags_exist ]]| <span>[[ for:post.tags:tag:index:max ]]<a href="/tags/[[ tag ]]">[[ tag ]]</a>[[ if:index:!max ]], [[ endif ]][[ endfor ]]</span>[[ endif ]]</span>
         </div>
       </div>
       <input id="show-md" type="checkbox"/><label for="html">Show MD</label>
@@ -19,7 +20,12 @@
         [[ html:post.html ]]
       </div>
       <div id="post-md">
-        [[ post.md ]]
+        [[ for:post.md_lines:line ]]
+          [[ line ]]
+          [[ if:line ]]
+            <br>
+          [[ endif ]]
+        [[ endfor ]]
       </div>
     </div>
   </body>

@@ -18,9 +18,9 @@ Makoto is the markdown-to-html parser, made with no dependencies. It was made ar
 It also has a very cool warnings feature, that isn't used in this project, but can be seen in action if you use the [Makoto Web Editor](https://makoto.prussia.dev).
 
 ## Ryuji
-Ryuji is a simple templating system. It's Jinja/Nunjucks inspired but has less features. On the upside, Ryuji is less than 200 lines of code and supports if statements, for loops, components and inserting variables.
+Ryuji is a simple templating system. It's Jinja/Nunjucks inspired but has less features. On the upside, Ryuji is around 200 lines of code and supports if statements, for loops, components and inserting variables.
 
 I didn't write any docs for it, but you can see the syntax if you look in the `templates` directory or look in `tests.ts`.
 
 ## Saki
-Saki is the build system that puts it all together and outputs the blog's static html.
+Saki is the build system that puts it all together and outputs the blog's static html. Even more simple than Ryuji, it is just around 70 lines of code.

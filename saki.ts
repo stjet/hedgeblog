@@ -1,7 +1,6 @@
 import * as path from 'path';
 import { copyFileSync, existsSync, readdirSync, rmSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import type { Renderer } from './ryuji.js';
-import { parse_md_to_html } from 'makoto';
 
 export class Builder {
   build_dir: string;
@@ -44,9 +43,11 @@ export class Builder {
     let dest_path: string = path.join(this.build_dir, serve_path);
     if (!serve_path.includes(".")) {
       //serve as index.html in serve_path directory
+      //will not make a new directory if `serve_path` is "/", since the build directory already exists
       if (dest_path !== this.build_dir && dest_path !== path.join(this.build_dir, "/")) {
-        //will not make a new directory if `serve_path` is "/", since the build directory already exists
-        mkdirSync(dest_path);
+        mkdirSync(dest_path, {
+          recursive: true,
+        });
       }
       writeFileSync(path.join(dest_path, "index.html"), content);
     } else {
@@ -60,68 +61,14 @@ export class Builder {
     this.serve_content(file_content, serve_path);
   }
 
-  _serve_template(renderer: Renderer, serve_path: string, template_name: string, vars: any) {
+  serve_template(renderer: Renderer, serve_path: string, template_name: string, vars: any) {
     let content: string = renderer.render_template(template_name, vars);
     this.serve_content(content, serve_path);
   }
-}
 
-//this code is more or less specific to my blog
-
-export interface PostMetadata {
-  title: string,
-  slug: string,
-  filename: string,
-  date: string,
-  author: string,
-  tags: string[],
-}
-
-export interface Post extends PostMetadata {
-  md: string,
-  html: string,
-}
-
-export class BlogBuilder extends Builder {
-  renderer: Renderer;
-
-  constructor(renderer: Renderer, build_dir: string="/build") {
-    super(build_dir);
-    this.renderer = renderer;
-  }
-
-  serve_template(serve_path: string, template_name: string, vars: any) {
-    super._serve_template(this.renderer, serve_path, template_name, vars);
-  }
-
-  serve_markdown(serve_path: string, template_name: string, markdown_post: Post, additional_vars: any={}) {
-    additional_vars.post = markdown_post;
-    this.serve_template(serve_path, template_name, {
-      post: markdown_post,
-      author_expected: markdown_post.author.toLowerCase().startsWith("jetstream0") || markdown_post.author.toLowerCase().startsWith("prussia"),
-    });
-  }
-
-  serve_markdowns(serve_path: string, posts_path: string, template_name: string, posts_metadata: PostMetadata[], own_dir: boolean=true) {
-    let posts_dir_path: string = path.join(this.build_dir, posts_path);
-    if (!existsSync(posts_dir_path)) {
-      mkdirSync(posts_dir_path);
-    }
-    for (let i=0; i < posts_metadata.length; i++) {
-      let post_metadata: PostMetadata = posts_metadata[i];
-      let post_md_path: string = path.join(__dirname, posts_path, `${post_metadata.slug}.md`);
-      let post_md: string = readFileSync(post_md_path, "utf-8");
-      let post_html: string = parse_md_to_html(post_md);
-      let post: Post = {
-        ...post_metadata,
-        md: post_md,
-        html: post_html,
-      };
-      if (own_dir) {
-        this.serve_markdown(path.join(serve_path, post.slug), template_name, post);
-      } else {
-        this.serve_markdown(path.join(serve_path, `${post.slug}.html`), template_name, post);
-      }
+  serve_templates(renderer: Renderer, serve_paths: string[], template_name: string, vars_array: any[]) {
+    for (let i=0; i < serve_paths.length; i++) {
+      this.serve_template(renderer, serve_paths[i], template_name, vars_array[i]);
     }
   }
 }

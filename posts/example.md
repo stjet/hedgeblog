@@ -12,8 +12,8 @@ console.log("code block!!!");
 ```
 
 > ## woah a blockquote
-> Yeehaw ^[1]^
+> Yeehaw ^\[1]^
 
-===
+----
 
-- [1]: Source? Me.
+- \[1]: Source? Me.

@@ -116,4 +116,61 @@ test_assert_equal(
   "for loop with template test"
 );
 
+//[[ if index_var ]] will be false when index_var is 0 btw
+test_assert_equal(
+  renderer.render(
+    "[[ for:trees:_tree:index_var ]][[ if:index_var ]]<b>[[ index_var ]]</b>[[ endif ]][[ endfor ]]",
+    {
+      trees: [
+        "mango",
+        "oak",
+        "redwood",
+        "palm",
+      ],
+    }
+  ),
+  "<b>1</b><b>2</b><b>3</b>",
+  "for loop with index test",
+);
+
+test_assert_equal(
+  renderer.render(
+    "[[ for:trees:_tree:index_var:max_var ]][[ index_var ]]/[[ max_var ]][[ if:index_var:!max_var ]] [[ endif ]][[ endfor ]]",
+    {
+      trees: [
+        "mango",
+        "oak",
+        "redwood",
+        "palm",
+      ],
+    }
+  ),
+  "0/3 1/3 2/3 3/3",
+  "for loop with index, max and if statement test",
+);
+
+test_assert_equal(
+  renderer.render(
+    "[[ if:nutritious:delicious ]]meets both[[ endif ]]",
+    {
+      nutritious: "yes",
+      delicious: "yes",
+    }
+  ),
+  "meets both",
+  "if statement with comparisons test",
+);
+
+test_assert_equal(
+  renderer.render(
+    "[[ if:nutritious:!delicious ]]fails both[[ endif ]][[ if:nutritious:!yes ]]this never displays[[ endif ]]",
+    {
+      nutritious: "yes",
+      delicious: "no",
+      yes: "yes",
+    }
+  ),
+  "fails both",
+  "if not statement with comparisons test",
+);
 log_test_results();

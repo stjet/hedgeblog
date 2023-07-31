@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:\-_]+ \]\]/g;
+export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:\-_!]+ \]\]/g;
 
 export type file_extension = `.${string}`;
 
@@ -10,6 +10,7 @@ export interface ForLoopInfo {
   current: number,
   var_value: any, //value we are looping over
   iter_var_name?: string,
+  index_var_name?: string,
 }
 
 export class Renderer {
@@ -104,6 +105,18 @@ export class Renderer {
             Renderer.check_var_name_legality(iter_var_name, false);
             vars[iter_var_name] = var_value[0];
           }
+          if (typeof exp_parts[3] === "string") {
+            //set index count
+            let index_var_name: string = exp_parts[3];
+            Renderer.check_var_name_legality(index_var_name, false);
+            vars[index_var_name] = 0;
+          }
+          if (typeof exp_parts[4] === "string") {
+            //set max count
+            let max_var_name: string = exp_parts[4];
+            Renderer.check_var_name_legality(max_var_name, false);
+            vars[max_var_name] = var_value.length-1;
+          }
           //add to for loops
           for_loops.push({
             index,
@@ -111,6 +124,7 @@ export class Renderer {
             current: 0,
             var_value,
             iter_var_name: exp_parts[2],
+            index_var_name: exp_parts[3],
           });
           //make sure thing we are iterating over isn't empty
           if (var_value.length === 0) {
@@ -122,16 +136,16 @@ export class Renderer {
             continue;*/
             let sliced = matches.slice(index+1, matches.length);
             let new_index: number;
-            let extra_forss: number = 0;
+            let extra_fors: number = 0;
             for (let i=0; i < sliced.length; i++) {
               if (sliced[i][0].startsWith("[[ for:")) {
-                extra_forss++;
+                extra_fors++;
               } else if (sliced[i][0] === "[[ endfor ]]") {
-                if (extra_forss === 0) {
+                if (extra_fors === 0) {
                   new_index = i;
                   break;
                 }
-                extra_forss--;
+                extra_fors--;
               }
             }
             if (typeof new_index === "undefined") throw Error("if statement missing an `[[ endif ]]`");
@@ -151,6 +165,9 @@ export class Renderer {
           if (current_loop.iter_var_name) {
             vars[current_loop.iter_var_name] = current_loop.var_value[current_loop.current];
           }
+          if (current_loop.index_var_name) {
+            vars[current_loop.index_var_name] = current_loop.current;
+          }
           //go back to start of for loop index
           index = current_loop.index;
           continue;
@@ -159,9 +176,40 @@ export class Renderer {
         if (typeof exp_parts[1] !== "string") throw Error("`if:` statement missing variable name afterwards");
         let var_name: string = exp_parts[1];
         let var_value = Renderer.get_var(var_name, vars);
-        if (var_value) {
-          //yup, nothing here
+        let condition_pass: boolean;
+        if (typeof exp_parts[2] !== "string") {
+          //make sure var is truthy
+          if (var_value) {
+            condition_pass = true;
+          } else {
+            condition_pass = false;
+          }
         } else {
+          //compare with second var
+          let var_name2: string = exp_parts[2];
+          let if_not: boolean = false;
+          if (var_name2.startsWith("!")) {
+            var_name2 = var_name2.slice(1, var_name2.length);
+            if_not = true;
+          }
+          let var_value2 = Renderer.get_var(var_name2, vars);
+          if (if_not) {
+            //make sure the two compared variables are NOT equal
+            if (var_value !== var_value2) {
+              condition_pass = true;
+            } else {
+              condition_pass = false;
+            }
+          } else {
+            //regular comparison statement
+            if (var_value === var_value2) {
+              condition_pass = true;
+            } else {
+              condition_pass = false;
+            }
+          }
+        }
+        if (!condition_pass) { //failed condition
           //skip to the endif
           let sliced = matches.slice(index+1, matches.length);
           let new_index: number;
@@ -192,7 +240,20 @@ export class Renderer {
         } else {
           var_name = exp_parts[0];
         }
-        let var_value = Renderer.get_var(var_name, vars);
+        //convert to string
+        let var_value: string = String(Renderer.get_var(var_name, vars));
+        //add indentation
+        let current_lines: string[] = rendered.split("\n")
+        let current_last: string = current_lines[current_lines.length-1];
+        let indentation: number = 0;
+        for (let i=0; i < current_last.length; i++) {
+          if (current_last[i] !== " ") break;
+          indentation++;
+        }
+        let var_lines: string[] = var_value.split("\n");
+        let var_first: string = var_lines.shift();
+        //append spaces
+        var_value = var_lines.length === 0 ? var_first : var_first+"\n"+var_lines.map((var_line) => " ".repeat(indentation)+var_line).join("\n");
         if (exp_parts[0] === "html") {
           //variable but not sanitized
           rendered += var_value;
