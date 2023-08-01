@@ -1,0 +1,16 @@
+#post-md {
+  margin-top: 7px;
+  display: none;
+}
+
+#show-md:checked ~ #post-md {
+  display: block;
+}
+
+#show-md:checked ~ #post-html {
+  display: none;
+}
+
+#next-post-container {
+  padding-top: 10px;
+}

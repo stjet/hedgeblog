@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>"[[ tag ]]" posts</title>
     <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="stylesheet" href="/styles/global.css">
   </head>
   <body>
-    <div>
-      <h2>Search for posts with tag "[[ tag ]]"</h2>
-    </div>
-    <div>
-      <ul>
-        [[ for:posts:post ]]
-          [[ component:post-listing ]]
-        [[ endfor ]]
-      </ul>
+    [[ component:return ]]
+    [[ component:dark-mode-checkbox ]]
+    <div id="main">
+      <div>
+        <h2>Search for posts with tag "[[ tag ]]"</h2>
+      </div>
+      <div>
+        <ul>
+          [[ for:posts:post ]]
+            [[ component:post-listing ]]
+          [[ endfor ]]
+        </ul>
+      </div>
     </div>
   </body>
 </html>

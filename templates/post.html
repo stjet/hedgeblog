@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>[[ post.title ]]</title>
     <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/post.css">
   </head>
   <body>
     [[ component:return ]]
-    <div>
+    [[ component:dark-mode-checkbox ]]
+    <div id="main">
       <div id="post-info">
         <h1>[[ post.title ]]</h1>
         <div>
           <span><span [[ if:author_expected ]]title="(obviously)"[[ endif ]]>By [[ post.author ]]</span> | <span>[[ post.date ]]</span> [[ if:post.tags_exist ]]| <span>[[ for:post.tags:tag:index:max ]]<a href="/tags/[[ tag ]]">[[ tag ]]</a>[[ if:index:!max ]], [[ endif ]][[ endfor ]]</span>[[ endif ]]</span>
         </div>
       </div>
-      <input id="show-md" type="checkbox"/><label for="html">Show MD</label>
+      <input id="show-md" type="checkbox"/><label for="show-md">Show MD</label>
       <div id="post-html">
         [[ html:post.html ]]
       </div>
@@ -27,6 +30,12 @@
           [[ endif ]]
         [[ endfor ]]
       </div>
+      [[ if:post.slug:!next_post.slug ]]
+        <div id="next-post-container">
+            <a href="/posts/[[ next_post.slug ]]">Next Post: [[ next_post.title ]]</a>
+        </div>
+        [[ endif ]]
+      [[ component:makoto-styling ]]
     </div>
   </body>
 </html>

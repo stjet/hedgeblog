@@ -1,4 +1,3 @@
-
 export let total_tests: number = 0;
 export let failed_tests: number = 0;
 export let passed_tests: number = 0;

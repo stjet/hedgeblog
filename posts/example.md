@@ -2,7 +2,7 @@ Hello! This is an **example** post *not meant* to be actually served on the blog
 
 [look its a link](https://example.com)
 
-![and an image too??? no way](/favicon.ico)
+![and an image too??? no way, this is a very safe hedgehog btw](/favicon.ico)
 
 ## Wow a header
 

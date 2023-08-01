@@ -50,7 +50,7 @@ let tags: string[] = []; //also get all the tags since we are iterating through 
 for (let i=0; i < posts_metadata.length; i++) {
   let post_metadata: PostMetadata = posts_metadata[i];
   posts_serve_paths.push(`/posts/${post_metadata.slug}`);
-  let post_md_path: string = path.join(__dirname, `/posts/${post_metadata.slug}.md`);
+  let post_md_path: string = path.join(__dirname, `/posts/${post_metadata.filename}.md`);
   let md: string = readFileSync(post_md_path, "utf-8").replaceAll("\r", "");
   let html: string = parse_md_to_html(md);
   for (let j=0; j < post_metadata.tags.length; j++) {
@@ -65,9 +65,11 @@ for (let i=0; i < posts_metadata.length; i++) {
     html,
     tags_exist: post_metadata.tags.length !== 0,
   }
+  let next_post: PostMetadata = posts_metadata[i+1] ? posts_metadata[i+1] : posts_metadata[0];
   posts_vars.push(
     {
       post,
+      next_post,
       author_expected: post.author.toLowerCase().startsWith("jetstream0") || post.author.toLowerCase().startsWith("prussia"),
     }
   );
