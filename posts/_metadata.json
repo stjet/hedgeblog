@@ -5,7 +5,23 @@
     "filename": "meta",
     "date": "01/08/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["code", "project", "web", "markdown"]
+    "tags": ["code", "project", "web", "markdown", "typescript/javascript", "css"]
+  },
+  "adding-commas": {
+    "title": "Adding Commas to Numbers",
+    "slug": "adding-commas",
+    "filename": "adding_commas",
+    "date": "15/11/2022",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "typescript/javascript"]
+  },
+  "190k-faucet": {
+    "title": "190000 Payouts!",
+    "slug": "190-faucet",
+    "filename": "190k_faucet",
+    "date": "12/02/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["project", "web", "milestone", "crypto"]
   },
   "ryuji-docs": {
     "title": "Ryuji Documentation",
@@ -13,7 +29,7 @@
     "filename": "ryuji_docs",
     "date": "02/08/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["code", "project", "web", "docs"]
+    "tags": ["code", "project", "web", "docs", "typescript/javascript"]
   },
   "saki-docs": {
     "title": "Saki Documentation",
@@ -21,6 +37,6 @@
     "filename": "saki_docs",
     "date": "02/08/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["code", "project", "web", "build", "docs"]
+    "tags": ["code", "project", "web", "build", "docs", "typescript/javascript"]
   }
 }

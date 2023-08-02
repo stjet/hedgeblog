@@ -14,6 +14,7 @@ Anyways, once I decided to start completely rewriting the blog, I established so
 - Use Typescript
 - No Javascript running client side - the web pages should be pure HTML and CSS
 - Style-wise, should be minimalistic, nothing fancy
+- Load quickly and be small in size
 
 ## Non-Technical Goals
 - Make two things I can call "Ryuji" and "Saki" to go along with "Makoto" (those are the three main characters of one of the best manga series ever)
