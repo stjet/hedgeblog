@@ -80,7 +80,7 @@ export class Renderer {
     //let offset: number = 0; //I guess we don't need the offset
     while (true) {
       if (index === matches.length) break;
-      if (_iterations > 200) return; //safeguard, todo: remove
+      if (_iterations > 75000) console.log("Passed 75000 iterations while rendering, infinite loop?");
       let match = matches[index];
       //[[ content ]]
       let exp_parts = match[0].slice(3, match[0].length-3).split(":");
