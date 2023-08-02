@@ -1,18 +1,26 @@
 {
-  "example": {
-    "title": "Example!",
-    "slug": "example",
-    "filename": "example",
-    "date": "30/12/1999",
-    "author": "Prussia",
-    "tags": ["example", "fake", "please remember to remove"]
+  "meta": {
+    "title": "meta",
+    "slug": "meta",
+    "filename": "meta",
+    "date": "01/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "project", "web", "markdown"]
   },
-  "another_example": {
-    "title": "Another Example!",
-    "slug": "another-example",
-    "filename": "another_example",
-    "date": "31/07/2023",
-    "author": "John Dough",
-    "tags": ["example", "jia", "please remember to remove"]
+  "ryuji-docs": {
+    "title": "Ryuji Documentation",
+    "slug": "ryuji-docs",
+    "filename": "ryuji_docs",
+    "date": "02/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "project", "web", "docs"]
+  },
+  "saki-docs": {
+    "title": "Saki Documentation",
+    "slug": "saki-docs",
+    "filename": "saki_docs",
+    "date": "02/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "project", "web", "build", "docs"]
   }
 }
