@@ -2,7 +2,7 @@ name: Build Saki and Deploy to Github Pages
 
 on:
   push:
-    branches: ["gh-pages"]
+    branches: ["pages"]
   #workflow dispatch only works when workflow is on default branch
   #workflow_dispatch:
 
