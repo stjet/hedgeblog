@@ -4,7 +4,7 @@ h2 {
 
 #fancy-title:checked ~ h2 {
   color: white;
-  padding-right: 0px 4px;
+  padding-right: 4px;
   background-color: dodgerblue;
   text-shadow: 1px 1px 1px gray, 4px 4px 1px blue;
 }
