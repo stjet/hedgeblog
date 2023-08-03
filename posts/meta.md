@@ -34,7 +34,7 @@ All the standard Markdown are supported (headers, bolds, italics, images, links,
 It also has a very cool warnings feature, which isn't used in this project, but can be seen in action if you use the [Makoto Web Editor](https://makoto.prussia.dev).
 
 ### Ryuji
-Ryuji is a simple templating system that supports `if` statements, `for` loops, components, and inserting variables. It isn't quite as fully featured as Jinja/Nunjucks, but on the upside, Ryuji is around just 200 lines of code, and worked very well for my usecase. I think it's pretty cool.
+Ryuji is a simple templating system that supports `if` statements, `for` loops, components, and inserting variables. It isn't quite as fully featured as Jinja/Nunjucks, but on the upside, Ryuji is less than 280 lines of code, and worked very well for my usecase. I think it's pretty cool.
 
 Here's a quick overview of the syntax:
 
