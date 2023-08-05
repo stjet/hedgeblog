@@ -20,13 +20,15 @@ I think the most interesting part of this code was the 5th line (`let position =
 
 ![Demo](/images/commas.gif)
 
-Here is a version that can handle decimals and invalid inputs:
+Here is a version that can handle decimals (keep in mind that Javascript does cut off decimals after a certain point), negative numbers and invalid inputs:
 
 ```js
 function format_commas(amount) {
   if (isNaN(Number(amount))) {
     return amount;
   }
+  let negative = amount < 0;
+  amount = Math.abs(amount);
   let before_dec = String(amount).split('.')[0];
   let amount_mod = before_dec;
   //iterate the amount of commas there are
@@ -36,6 +38,9 @@ function format_commas(amount) {
   }
   if (String(amount).split('.')[1]) {
     amount_mod = amount_mod+"."+String(amount).split('.')[1];
+  }
+  if (negative) {
+    amount_mod = `-${amount_mod}`;
   }
   return amount_mod;
 }
