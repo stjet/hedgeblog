@@ -7,6 +7,14 @@
     "author": "jetstream0/Prussia",
     "tags": ["code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "eve": {
+    "title": "Eve",
+    "slug": "eve",
+    "filename": "eve",
+    "date": "06/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["cryptography"]
+  },
   "month-start-unix": {
     "title": "Finding the Unix Timestamp of the Start of the Month with Javascript",
     "slug": "month-start-unix",
@@ -21,7 +29,7 @@
     "filename": "190k_faucet",
     "date": "12/02/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["project", "web", "milestone", "crypto"]
+    "tags": ["project", "web", "milestone", "cryptocurrency"]
   },
   "adding-commas": {
     "title": "Adding Commas to Numbers",
@@ -38,6 +46,14 @@
     "date": "19/08/2022",
     "author": "jetstream0/Prussia",
     "tags": ["bot", "typescript_javascript"]
+  },
+  "gobanme-v1-2": {
+    "title": "GoBanMe v1.2",
+    "slug": "gobanme-v1-2",
+    "filename": "gobanme_v1-2",
+    "date": "30/05/2022",
+    "author": "jetstream0/Prussia",
+    "tags": ["release", "cryptocurrency"]
   },
   "fake-typing-effect": {
     "title": "Making a Fake Typing Effect",
@@ -62,13 +78,5 @@
     "date": "02/08/2023",
     "author": "jetstream0/Prussia",
     "tags": ["code", "project", "web", "build", "docs", "typescript_javascript"]
-  },
-  "eve": {
-    "title": "Eve",
-    "slug": "eve",
-    "filename": "eve",
-    "date": "06/08/2023",
-    "author": "jetstream0/Prussia",
-    "tags": ["cryptography"]
   }
 }
