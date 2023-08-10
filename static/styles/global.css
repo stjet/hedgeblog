@@ -22,6 +22,30 @@ body {
   font-size: 1.02rem;
 }
 
+h1 {
+  font-size: 2rem !important;
+}
+
+h1 code {
+  font-size: 1.9rem !important;
+}
+
+h2 {
+  font-size: 1.5em !important;
+}
+
+h2 code {
+  font-size: 1.4em !important;
+}
+
+h3, h3 code {
+  font-size: 1.3em !important;
+}
+
+h3 code {
+  font-size: 1.2em !important;
+}
+
 #return {
   position: absolute;
   top: 5px;
@@ -79,9 +103,11 @@ label[for="dark-mode"] {
 }
 
 #dark-mode + label[for="dark-mode"]::after {
+  color: black;
   content: "🌙";
 }
 
 #dark-mode:checked + label[for="dark-mode"]::after {
+  color: white;
   content: "☀️";
 }

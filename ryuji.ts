@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:\-_!]+ \]\]/g;
+export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:/\-_!]+ \]\]/g;
 
 export type file_extension = `.${string}`;
 
@@ -129,11 +129,6 @@ export class Renderer {
           //make sure thing we are iterating over isn't empty
           if (var_value.length === 0) {
             //skip straight to the endfor
-            //todo: remove
-            /*let new_index: number = matches.slice(index, matches.length).findIndex((match) => match[0] === "[[ endfor ]]");
-            if (new_index === -1) throw Error("for statement missing an `[[ endfor ]]`");
-            index += new_index;
-            continue;*/
             let sliced = matches.slice(index+1, matches.length);
             let new_index: number;
             let extra_fors: number = 0;
@@ -148,7 +143,7 @@ export class Renderer {
                 extra_fors--;
               }
             }
-            if (typeof new_index === "undefined") throw Error("if statement missing an `[[ endif ]]`");
+            if (typeof new_index === "undefined") throw Error("`for:` statement missing an `[[ endfor ]]`");
             index += new_index+1;
             continue;
           }
@@ -225,7 +220,7 @@ export class Renderer {
               extra_ifs--;
             }
           }
-          if (typeof new_index === "undefined") throw Error("if statement missing an `[[ endif ]]`");
+          if (typeof new_index === "undefined") throw Error("`if:` statement missing an `[[ endif ]]`");
           index += new_index+1;
           continue;
         }
@@ -243,7 +238,7 @@ export class Renderer {
         //convert to string
         let var_value: string = String(Renderer.get_var(var_name, vars));
         //add indentation
-        let current_lines: string[] = rendered.split("\n")
+        let current_lines: string[] = rendered.split("\n");
         let current_last: string = current_lines[current_lines.length-1];
         let indentation: number = 0;
         for (let i=0; i < current_last.length; i++) {
@@ -260,7 +255,6 @@ export class Renderer {
         } else {
           rendered += Renderer.sanitize(var_value);
         }
-        //offset += var_value.length-match[0].length;
       }
       //add the html that comes after this, up until the next template syntax match thing
       rendered += template_contents.slice(match.index+match[0].length, matches[index+1]?.index ? matches[index+1].index : template_contents.length);
