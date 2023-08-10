@@ -14,3 +14,20 @@ h2 {
   top: 0;
   left: 0;
 }
+
+.random {
+  margin-top: 10px;
+  display: none;
+}
+
+.random:target {
+  display: block;
+}
+
+.random:target ~ #ciran {
+  display: none;
+}
+
+.random-content {
+  min-height: 40px;
+}

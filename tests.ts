@@ -89,10 +89,9 @@ test_assert_equal(
     }
   ),
   "<p>a</p><p>c</p>",
-  "nested for loop with if statement test"
+  "for loop with if statement test"
 );
 
-//for loop and template
 test_assert_equal(
   Renderer.remove_empty_lines(
     renderer.render(
@@ -113,7 +112,7 @@ test_assert_equal(
     )
   ),
   "<div>\n  <ul>\n      <li><a href=\"/posts/abc\">Abc!</a></li>\n      <li>abcabcabc</li>\n      <li><a href=\"/posts/san-shi-san\">San Shi San</a></li>\n      <li>abcabcabc</li>\n  </ul>\n</div>",
-  "for loop with template test"
+  "nested for loop with template test"
 );
 
 //[[ if index_var ]] will be false when index_var is 0 btw
