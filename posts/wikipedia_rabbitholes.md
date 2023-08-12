@@ -44,3 +44,26 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Fuke-shū](https://en.wikipedia.org/wiki/Fuke-sh%C5%AB), [Shakuhachi](https://en.wikipedia.org/wiki/Shakuhachi) playing, basket wearing, Zen Buddhism sect
 - [Zen Koans](https://en.wikipedia.org/wiki/Koan), "A monk asked Dongshan Shouchu, 'What is Buddha?' Dongshan said, 'Three pounds of flax.'"
 - [Shugendō](https://en.wikipedia.org/wiki/Shugend%C5%8D), a religion combining Buddhism, folk religion, and Shinto mountain worship
+- [Spartacist uprising](https://en.wikipedia.org/wiki/Spartacist_uprising), crushed communist revolt during the early Weimar Republic
+- [Self-immolation](https://en.wikipedia.org/wiki/Self-immolation)
+- [Charles Maurice de Talleyrand-Périgord](https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord), important French Foreign Minister/diplomat across the French Monarchy, revolution, and Napoleonic period, [Bourbon Restoration](https://en.wikipedia.org/wiki/Bourbon_Restoration_in_France)
+- [Luigi Lucheni](https://en.wikipedia.org/wiki/Luigi_Lucheni), anarchist assassin using a four-inch file as his weapon
+- [Hundred Days](https://en.wikipedia.org/wiki/Hundred_Days), Napoleon returns to power, briefly
+- [Green Corn Rebellion](https://en.wikipedia.org/wiki/Green_Corn_Rebellion), anti-draft rebellion in Oklahoma, USA during WW1
+- [William Augustus Bowles](https://en.wikipedia.org/wiki/William_Augustus_Bowles), British leader of the Native American State of Muskogee
+- [Mexican Revolution](https://en.wikipedia.org/wiki/Mexican_Revolution)
+- [Frozen Conflict](https://en.wikipedia.org/wiki/Frozen_conflict)
+- [Czechoslovak Legion](https://en.wikipedia.org/wiki/Czechoslovak_Legion), Czechoslovakian volunteer soldiers who found themselves in the middle of the [Russian Civil War](https://en.wikipedia.org/wiki/Russian_Civil_War)
+- [Yuan Shikai](https://en.wikipedia.org/wiki/Yuan_Shikai), who overthrew the Qing Dynasty, then [tried and failed to proclaim himself emperor](https://en.wikipedia.org/wiki/National_Protection_War)
+- [Wuchang Uprising](https://en.wikipedia.org/wiki/Wuchang_Uprising)
+- [Nio](https://en.wikipedia.org/wiki/Nio), guardians at the entrance of many Buddhist temples
+- [Mount Hiei](https://en.wikipedia.org/wiki/Mount_Hiei), the location of [Enryaku-ji](https://en.wikipedia.org/wiki/Enryaku-ji)
+- [Mongol Invasions of Japan](https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan)
+- [Language Isolate](https://en.wikipedia.org/wiki/Language_isolate), languages that aren't classified as part of larger [language families](https://en.wikipedia.org/wiki/Language_family)
+- [Jiajing Wokou Raids](https://en.wikipedia.org/wiki/Jiajing_wokou_raids), pirates
+- [Word (computer_architecture)](https://en.wikipedia.org/wiki/Word_%28computer_architecture%29)
+- [Transition from Ming to Qing](https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing)
+- [Eighty Years' War](https://en.wikipedia.org/wiki/Eighty_Years%27_War), Dutch independence from Spain
+- [Abbasid Revolution](https://en.wikipedia.org/wiki/Abbasid_Revolution), the [Umayyad Caliphate](https://en.wikipedia.org/wiki/Umayyad_Caliphate) is overthrown and replaced by the Abbasid Caliphate
+- [Operation Motorman](https://en.wikipedia.org/wiki/Operation_Motorman), British military operation in Northern Ireland
+- [Green Armies](https://en.wikipedia.org/wiki/Green_armies) in the Russian Civil War
