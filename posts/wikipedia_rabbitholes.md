@@ -1,0 +1,46 @@
+Wikipedia articles. I like them. The "Did you know" and "On this day" sections on the front page are real treasure troves. They have archives too, so you'll never run out of articles to read.
+
+Here's a very incomplete (and maybe actively updated) list of ones that led to more clicks and were interesting to read:
+
+- [Second Anglo-Dutch War](https://en.wikipedia.org/wiki/Second_Anglo-Dutch_War)
+- [Koxinga](https://en.wikipedia.org/wiki/Koxinga), rogue Ming loyalist general who defeated the Dutch and Qing, to rule Taiwan 
+- [Red Turban Rebellions](https://en.wikipedia.org/wiki/Red_Turban_Rebellions) and [Chinese Manichaeism](https://en.wikipedia.org/wiki/Chinese_Manichaeism) connected to each other through Manichaeian influence on the [White Lotus Society](https://en.wikipedia.org/wiki/White_Lotus)
+- [List of Ethnic Groups in China](https://en.wikipedia.org/wiki/List_of_ethnic_groups_in_China)
+- [Battle of Dien Bien Phu](https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu), where the Viet Minh kick out the French
+- [Battle of Saigon (1955)](https://en.wikipedia.org/wiki/Battle_of_Saigon_%281955%29)
+- [KHTML](https://en.wikipedia.org/wiki/KHTML), made by KDE, which suprisingly is the parent of both Chrome ([Blink](https://en.wikipedia.org/wiki/Blink_%28browser_engine%29)) and Safari ([Webkit](https://en.wikipedia.org/wiki/WebKit))
+- [Syrian Civil War](https://en.wikipedia.org/wiki/Syrian_civil_war) and it's numerous factions, like the non-secular [Syrian Salvation Government](https://en.wikipedia.org/wiki/Syrian_Salvation_Government) rebels or the Kurdish [Rojava](https://en.wikipedia.org/wiki/Autonomous_Administration_of_North_and_East_Syria) (related: )
+- [Circassian Genocide](https://en.wikipedia.org/wiki/Circassian_genocide), possibly the biggest genocide of the 19th century
+- [Basmachi movement](https://en.wikipedia.org/wiki/Basmachi_movement), Central Asian rebellion against Soviet rule, with notable participant [Enver Pasha](https://en.wikipedia.org/wiki/Enver_Pasha), one of the [Three Pashas](https://en.wikipedia.org/wiki/Three_Pashas) who perpetrated the [Armenian Genocide](https://en.wikipedia.org/wiki/Armenian_genocide)
+- [Saigo Takamori](https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori), [Meiji Restoration](https://en.wikipedia.org/wiki/Meiji_Restoration) and [Satsuma Rebellion](https://en.wikipedia.org/wiki/Satsuma_Rebellion) leader
+- [Shimabara Rebellion](https://en.wikipedia.org/wiki/Shimabara_Rebellion), Christian rebellion in Japan
+- [May 68](https://en.wikipedia.org/wiki/May_68), leftist French civil unrest
+- [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+- [Xi'an Incident](https://en.wikipedia.org/wiki/Xi%27an_Incident), where [Chiang Kai-shek](https://en.wikipedia.org/wiki/Chiang_Kai-shek) (leader of the Nationalists) is kidnapped by his generals [Yang Hucheng](https://en.wikipedia.org/wiki/Yang_Hucheng) and [Chang Hsueh-liang](https://en.wikipedia.org/wiki/Chang_Hsueh-liang), and forced to cooperate with the Communists against the invading Japanese
+- [Abdullah Öcalan](https://en.wikipedia.org/wiki/Abdullah_%C3%96calan), imprisoned [PKK](https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party) leader
+- [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga), Japanese warlord, who died because of the [Honnō-ji Incident](https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident)
+- [Ishiyama Hongan-ji](https://en.wikipedia.org/wiki/Ishiyama_Hongan-ji), former [Jōdo Shinshū](https://en.wikipedia.org/wiki/J%C5%8Ddo_Shinsh%C5%AB) temple/fortress, was burned down and replaced by [Osaka Castle](https://en.wikipedia.org/wiki/Osaka_Castle), and the reason why the city of [Osaka](https://en.wikipedia.org/wiki/Osaka) exists
+- [Peninsular War](https://en.wikipedia.org/wiki/Peninsular_War), [Napoleon](https://en.wikipedia.org/wiki/Napoleon)'s invasion of Spain and Portugal
+- [Thomas Cochrane, 10th Earl of Dundonald](https://en.wikipedia.org/wiki/Thomas_Cochrane,_10th_Earl_of_Dundonald), successful British Navy officer accused of stock exchange fraud, later participating in [Liberating Expedition of Peru](https://en.wikipedia.org/wiki/Liberating_Expedition_of_Peru) from the Spanish
+- [Indonesia invades East Timor](https://en.wikipedia.org/wiki/Indonesian_invasion_of_East_Timor) to overthrow [Fretilin](https://en.wikipedia.org/wiki/Fretilin)
+- [Special Region of Yogyakarta](https://en.wikipedia.org/wiki/Special_Region_of_Yogyakarta), a region of Indonesia *currently* hereditarily ruled by the [Yogyakarta Sultanate](https://en.wikipedia.org/wiki/Yogyakarta_Sultanate) and the [Duchy of Pakualaman](https://en.wikipedia.org/wiki/Pakualaman)
+- [Nanboku-chō period](https://en.wikipedia.org/wiki/Nanboku-ch%C5%8D_period), when two opposing Japanese Imperial Courts existed, after the overthrow of the [Kamakura Shogunate](https://en.wikipedia.org/wiki/Kamakura_shogunate) and the failure of the [Kenmu Restoration](https://en.wikipedia.org/wiki/Kenmu_Restoration)
+- [COINTELPRO](https://en.wikipedia.org/wiki/COINTELPRO), where the FBI unsurprisingly misbehaves
+- [Transition to the New Order](https://en.wikipedia.org/wiki/Transition_to_the_New_Order), where [Suharto](https://en.wikipedia.org/wiki/Suharto) purges the [Indonesian Communist Party](https://en.wikipedia.org/wiki/Communist_Party_of_Indonesia), and overthrows [Sukarno](https://en.wikipedia.org/wiki/Sukarno)
+- [Crypto Wars](https://en.wikipedia.org/wiki/Crypto_Wars), where the US Government tries to prevent the public and foreigners from using strong encryption
+- [The Battle of Blair Mountain](https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain), where striking coal members are bombed
+- [Haymarket Affair](https://en.wikipedia.org/wiki/Haymarket_affair), where a bomb was thrown at police during a rally supporting the eight-hour work day
+- [Tigray War](https://en.wikipedia.org/wiki/Tigray_War), a recent rebellion of the Tigrayan Government against the Ethiopian Government
+- [Timur](https://en.wikipedia.org/wiki/Timur), conquerer and founder of the Timurid Empire, self proclaimed successor of Genghis Khan, and ancestor of the [Mughal Empire](https://en.wikipedia.org/wiki/Mughal_Empire)'s founders
+- [Year of the Four Emperors](https://en.wikipedia.org/wiki/Year_of_the_Four_Emperors), a period of civil war in the Roman Empire
+- [Frederick the Great](https://en.wikipedia.org/wiki/Frederick_the_Great), Prussian king, and military general
+- [Tadeusz Kościuszko](https://en.wikipedia.org/wiki/Tadeusz_Ko%C5%9Bciuszko), leader of the Polish-Lithuanian [Kościuszko Uprising](https://en.wikipedia.org/wiki/Ko%C5%9Bciuszko_Uprising) against Russian rule, and American Revolutionary War hero
+- [Favelas](https://en.wikipedia.org/wiki/Favela), Brazilian slums, some of which are ruled by cartels or vigilantes
+- [Princely State](https://en.wikipedia.org/wiki/Princely_state), Indian prince ruled territory under the British
+- [Annexation of Goa](https://en.wikipedia.org/wiki/Annexation_of_Goa), India invades Portugese ruled Goa
+- [List of ethnic armed organisations in Myanmar](https://en.wikipedia.org/wiki/List_of_ethnic_armed_organisations_in_Myanmar)
+- [Marcionism](https://en.wikipedia.org/wiki/Marcionism), early interpretation of Christianity
+- [Lion-Eating Poet in the Stone Den](https://en.wikipedia.org/wiki/Lion-Eating_Poet_in_the_Stone_Den), shi shi shi shi...
+- [Fuke-shū](https://en.wikipedia.org/wiki/Fuke-sh%C5%AB), [Shakuhachi](https://en.wikipedia.org/wiki/Shakuhachi) playing, basket wearing, Zen Buddhism sect
+- [Zen Koans](https://en.wikipedia.org/wiki/Koan), "A monk asked Dongshan Shouchu, 'What is Buddha?' Dongshan said, 'Three pounds of flax.'"
+- [Shugendō](https://en.wikipedia.org/wiki/Shugend%C5%8D), a religion combining Buddhism, folk religion, and Shinto mountain worship

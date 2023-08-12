@@ -7,6 +7,22 @@
     "author": "jetstream0/Prussia",
     "tags": ["code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "fermats-little-theorem": {
+    "title": "Fermats Little Theorem",
+    "slug": "fermats-little-theorem",
+    "filename": "fermats_little_theorem",
+    "date": "12/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "typescript_javascript", "math"]
+  },
+  "wikipedia-rabbitholes": {
+    "title": "Wikipedia Rabbitholes",
+    "slug": "wikipedia-rabbitholes",
+    "filename": "wikipedia_rabbitholes",
+    "date": "09/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["reading", "history", "wikipedia"]
+  },
   "eve": {
     "title": "Eve",
     "slug": "eve",
