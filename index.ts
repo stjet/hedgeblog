@@ -111,6 +111,19 @@ let first_posts: PostMetadata[] = posts_metadata.slice(0, 5); //not truly the re
 
 const site_info: SiteInfo = _site_info;
 
+function html_entity_convert(html: string) {
+  const entity_table = {
+    "&nbsp": "&#160",
+    "&lt;": "&#60;",
+    "&gt;": "&#62;",
+  };
+  for (let i=0; i < Object.keys(entity_table).length; i++) {
+    let entity_name = Object.keys(entity_table)[i];
+    html = html.replaceAll(entity_name, entity_table[entity_name]);
+  }
+  return html;
+}
+
 let posts_rss: RSSPost[] = first_posts.map((post) => {
   //get url
   let url: string = `${site_info.url}/posts/${post.slug}`;
@@ -125,7 +138,7 @@ let posts_rss: RSSPost[] = first_posts.map((post) => {
   //get html
   let post_md_path: string = path.join(__dirname, `/posts/${post.filename}.md`);
   let md: string = readFileSync(post_md_path, "utf-8").replaceAll("\r", "");
-  let html: string = parse_md_to_html(md);
+  let html: string = html_entity_convert(parse_md_to_html(md));
   //turn into rsspost
   return {
     ...post,
