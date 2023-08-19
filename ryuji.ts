@@ -89,7 +89,10 @@ export class Renderer {
         if (recursion_layer > 5) throw Error("Components more than 5 layers deep, components may be referencing each other in infinite loop.");
         if (typeof exp_parts[1] !== "string") throw Error("`component:` statement missing component file name afterwards");
         let file_name: string = exp_parts[1];
-        rendered += this.render_template(Renderer.concat_path(this.components_dir, `${file_name}${this.file_extension}`), vars, recursion_layer+1);
+	if (!file_name.includes(".")) {
+	  file_name += this.file_extension;
+	}
+	rendered += this.render_template(Renderer.concat_path(this.components_dir, file_name), vars, recursion_layer+1);
       } else if (exp_parts[0] === "for") {
         if (for_loops[for_loops.length-1]?.index === index) {
           //for loop already exists, just continue and do nothing
@@ -265,6 +268,9 @@ export class Renderer {
   }
 
   render_template(template_name: string, vars?: any, recursion_layer: number=0): string {
+    if (!template_name.includes(".")) {
+      template_name += this.file_extension;
+    }
     let path_to_template: string = Renderer.concat_path(this.templates_dir, template_name);
     const template_contents: string = readFileSync(path_to_template, "utf-8");
     return this.render(template_contents, vars, recursion_layer);

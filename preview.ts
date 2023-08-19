@@ -30,6 +30,9 @@ createServer((req, res) => {
     case "js":
       content_type = "text/javascript";
       break;
+    case "xml":
+      content_type = "text/xml";
+      break;
     case "png":
     case "ico":
       content_type = "image/png";

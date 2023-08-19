@@ -1,0 +1,10 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>[[ site_info.title ]]</title>
+  <link href="[[ site_info.url ]]"/>
+  <id>[[ site_info.url ]]</id>
+  <updated>[[ last_updated ]]</updated>
+  <icon>[[ site_info.icon ]]</icon>
+  [[ for:recent_posts:post ]]
+    [[ component:post_entry.xml ]]
+  [[ endfor ]]
+</feed>

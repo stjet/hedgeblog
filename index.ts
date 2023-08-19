@@ -4,6 +4,7 @@ import { parse_md_to_html } from 'makoto';
 import { Renderer } from './ryuji.js';
 import { Builder } from './saki.js';
 import _posts_metadata from './posts/_metadata.json';
+import _site_info from './site_info.json';
 
 export interface PostMetadata {
   title: string,
@@ -20,6 +21,18 @@ export interface Post extends PostMetadata {
   tags_exist: boolean,
 }
 
+export interface RSSPost extends PostMetadata {
+  url: string,
+  last_updated: string,
+  html: string,
+}
+
+export interface SiteInfo {
+  title: string,
+  url: string,
+  icon: string,
+}
+
 let renderer: Renderer = new Renderer("templates", "components");
 let builder: Builder = new Builder();
 
@@ -28,7 +41,7 @@ let posts_metadata: PostMetadata[] = Object.values(_posts_metadata);
 builder.serve_static_folder("static");
 
 //home page
-builder.serve_template(renderer, "/", "index.html", {
+builder.serve_template(renderer, "/", "index", {
   posts: posts_metadata,
 });
 
@@ -75,7 +88,7 @@ for (let i=0; i < posts_metadata.length; i++) {
   );
 }
 
-builder.serve_templates(renderer, posts_serve_paths, "post.html", posts_vars);
+builder.serve_templates(renderer, posts_serve_paths, "post", posts_vars);
 
 //tags
 
@@ -91,4 +104,46 @@ for (let i=0; i < tags.length; i++) {
   });
 }
 
-builder.serve_templates(renderer, tags_serve_paths, "tags.html", tags_vars);
+builder.serve_templates(renderer, tags_serve_paths, "tags", tags_vars);
+
+//build rss feed
+let first_posts: PostMetadata[] = posts_metadata.slice(0, 5); //not truly the recents, actually the first 5 posts in the json file, which is decided by me and usually the most recent posts
+
+const site_info: SiteInfo = _site_info;
+
+let posts_rss: RSSPost[] = first_posts.map((post) => {
+  //get url
+  let url: string = `${site_info.url}/posts/${post.slug}`;
+  //get last_updated
+  let date_parts: number[] = post.date.split("/").map((p) => Number(p)); // dd/mm/yyyy
+  let date: Date = new Date();
+  date.setUTCFullYear(date_parts[2]);
+  date.setUTCMonth(date_parts[1]-1, date_parts[0]);
+  date.setUTCHours(0, 0, 0, 0);
+  let iso_string: string = date.toISOString();
+  let last_updated: string = iso_string.slice(0, iso_string.length-1)+"+00:00"; //remove the "Z" in iso string
+  //get html
+  let post_md_path: string = path.join(__dirname, `/posts/${post.filename}.md`);
+  let md: string = readFileSync(post_md_path, "utf-8").replaceAll("\r", "");
+  let html: string = parse_md_to_html(md);
+  //turn into rsspost
+  return {
+    ...post,
+    url,
+    last_updated,
+    html,
+  }
+});
+
+//might leak what side of the planet youre on
+let now: Date = new Date();
+now.setUTCHours(0, 0, 0, 0);
+let global_iso_string: string = now.toISOString();
+let global_last_updated: string = global_iso_string.slice(0, global_iso_string.length-1)+"+00:00"; //remove the "Z" in iso string
+
+builder.serve_template(renderer, "/atom.xml", "atom.xml", {
+  site_info,
+  recent_posts: posts_rss,
+  last_updated: global_last_updated,
+});
+
