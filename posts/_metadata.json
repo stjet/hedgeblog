@@ -5,7 +5,15 @@
     "filename": "meta",
     "date": "01/08/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["code", "project", "web", "markdown", "typescript_javascript", "css"]
+    "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"]
+  },
+  "rss-feed": {
+    "title": "RSS!",
+    "slug": "rss-feed",
+    "filename": "rss_feed",
+    "date": "19/08/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["meta", "typescript_javascript", "project", "web"]
   },
   "fermats-little-theorem": {
     "title": "Fermats Little Theorem",
