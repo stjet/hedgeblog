@@ -1,0 +1,12 @@
+<entry>
+  <title>[[ post.title ]]</title>
+  <link href="[[ post.url ]]"/>
+  <id>[[ post.url ]]</id>
+  <updated>[[ post.last_updated ]]</updated>
+  <author>
+    <name>[[ post.author ]]</name>
+  </author>
+  <content type="html">
+    [[ post.html ]]
+  </content>
+</entry>

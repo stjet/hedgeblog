@@ -3,3 +3,4 @@ build
 *.js
 !static/*.js
 /posts/_draft_*.md
+nohup.out
