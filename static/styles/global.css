@@ -102,6 +102,10 @@ label[for="dark-mode"] {
   font-size: 1.3rem;
 }
 
+label[for="dark-mode"]:hover {
+  cursor: pointer;
+}
+
 #dark-mode + label[for="dark-mode"]::after {
   color: black;
   content: "🌙";
