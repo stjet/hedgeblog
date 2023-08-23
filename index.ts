@@ -45,6 +45,9 @@ builder.serve_template(renderer, "/", "index", {
   posts: posts_metadata,
 });
 
+//404 page (github pages)
+builder.serve_template(renderer, "/404.html", "404", {});
+
 //blog posts
 
 //if two tags reduce down to the same slug, oh well, not my problem
