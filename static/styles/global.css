@@ -11,6 +11,7 @@ body {
   box-sizing: border-box;
   min-height: 100vh;
   padding: 35px 10vw;
+  background-color: white;
   color: #222;
 }
 
@@ -114,4 +115,26 @@ label[for="dark-mode"]:hover {
 #dark-mode:checked + label[for="dark-mode"]::after {
   color: white;
   content: "☀️";
+}
+
+@media (prefers-color-scheme: dark) {
+  #dark-mode + label[for="dark-mode"]::after {
+    color: white;
+    content: "☀";
+  }
+
+  #dark-mode:checked + label[for="dark-mode"]::after {
+    color: black;
+    content: "🌙";
+  }
+
+  #main {
+    background-color: #222;
+    color: white;
+  }
+  
+  #dark-mode:checked ~ #main {
+    background-color: white;
+    color: #222;
+  }
 }
