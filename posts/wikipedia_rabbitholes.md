@@ -61,9 +61,35 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Mongol Invasions of Japan](https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan)
 - [Language Isolate](https://en.wikipedia.org/wiki/Language_isolate), languages that aren't classified as part of larger [language families](https://en.wikipedia.org/wiki/Language_family)
 - [Jiajing Wokou Raids](https://en.wikipedia.org/wiki/Jiajing_wokou_raids), pirates
-- [Word (computer_architecture)](https://en.wikipedia.org/wiki/Word_%28computer_architecture%29)
+- [Word (computer architecture)](https://en.wikipedia.org/wiki/Word_%28computer_architecture%29)
 - [Transition from Ming to Qing](https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing)
 - [Eighty Years' War](https://en.wikipedia.org/wiki/Eighty_Years%27_War), Dutch independence from Spain
 - [Abbasid Revolution](https://en.wikipedia.org/wiki/Abbasid_Revolution), the [Umayyad Caliphate](https://en.wikipedia.org/wiki/Umayyad_Caliphate) is overthrown and replaced by the Abbasid Caliphate
 - [Operation Motorman](https://en.wikipedia.org/wiki/Operation_Motorman), British military operation in Northern Ireland
 - [Green Armies](https://en.wikipedia.org/wiki/Green_armies) in the Russian Civil War
+- [Recusants](https://en.wikipedia.org/wiki/Recusancy) are those that did not support the Church of England after the English Reformation
+- [Terrorism Act 2000](https://en.wikipedia.org/wiki/Terrorism_Act_2000)
+- [Pontoon bridge](https://en.wikipedia.org/wiki/Pontoon_bridge)
+- [Francisco Macías Nguema](https://en.wikipedia.org/wiki/Francisco_Mac%C3%ADas_Nguema), completely insane dictator of Equatorial Guinea
+- [Yazidism](https://en.wikipedia.org/wiki/Yazidism)
+- [Göbekli Tepe](https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe), Neolithic archaeological site
+- [List of unsolved problems in mathematics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics)
+- [Hartal](https://en.wikipedia.org/wiki/Hartal), Indian strike action
+- [Achaemenid Empire](https://en.wikipedia.org/wiki/Achaemenid_Empire), very big, pretty cool
+- [The Camden 28](https://en.wikipedia.org/wiki/The_Camden_28), anti-Vietnam War activists
+- [Howard Zinn](https://en.wikipedia.org/wiki/Howard_Zinn), controversial historian
+- [Gnosticism](https://en.wikipedia.org/wiki/Gnosticism) was a set of early Christian beliefs
+- [TempleOS](https://en.wikipedia.org/wiki/TempleOS)
+- [Grendel's mother](https://en.wikipedia.org/wiki/Grendel's_mother), an antagonist in the Old English epic poem, Beowulf, who scholars debate whether is a monster or just a female warrior
+- [Epic of Gilgamesh](https://en.wikipedia.org/wiki/Epic_of_Gilgamesh), Sumerian epic poem
+- [An Lushan Rebellion](https://en.wikipedia.org/wiki/An_Lushan_Rebellion), An Lushan rebels, greatly weakened the Tang Dynasty
+- [Bahmani Sultanate](https://en.wikipedia.org/wiki/Bahmani_Sultanate), South Indian empire
+- [Pagan Empire](https://en.wikipedia.org/wiki/Pagan_Kingdom), the first Burmese kingdom
+- [warsaw Uprising](https://en.wikipedia.org/wiki/Warsaw_Uprising)
+- [Polish-Lithuanian Commonwealth](https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth)
+- [Atoll](https://en.wikipedia.org/wiki/Atoll)
+- [Chambre introuvable](https://en.wikipedia.org/wiki/Chambre_introuvable), ultra-royalists Chamber of Deputies elected after the Second Bourbon Restoration
+- [Fedayeen](https://en.wikipedia.org/wiki/Fedayeen)
+- [Battle of Nagashino](https://en.wikipedia.org/wiki/Battle_of_Nagashino), where Takeda Katsuyori learns it is not a good idea to cavalry charge into gunfire
+- [Twenty-Four Generals of Takeda Shingen](https://en.wikipedia.org/wiki/Twenty-Four_Generals_of_Takeda_Shingen), related to the Battle of Nagashino above, but too interesting to leave out
+- [Battle of Bannockburn](https://en.wikipedia.org/wiki/Battle_of_Bannockburn), decisive Scottish victory in the First War of Scottish Independence
