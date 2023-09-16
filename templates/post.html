@@ -24,15 +24,12 @@
       </div>
       <div id="post-md">
         [[ for:post.md_lines:line ]]
-          [[ line ]]
-          [[ if:line ]]
-            <br>
-          [[ endif ]]
+          <p><pre>[[ line ]]</pre></p>
         [[ endfor ]]
       </div>
       [[ if:post.slug:!next_post.slug ]]
         <div id="next-post-container">
-            <a href="/posts/[[ next_post.slug ]]">Next Post: [[ next_post.title ]]</a>
+          <a href="/posts/[[ next_post.slug ]]">Next Post: [[ next_post.title ]]</a>
         </div>
         [[ endif ]]
       [[ component:makoto-styling ]]
