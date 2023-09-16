@@ -7,6 +7,22 @@
     "author": "jetstream0/Prussia",
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "llm": {
+    "title": "LLM",
+    "slug": "llm",
+    "filename": "llm",
+    "date": "16/09/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["opinion"]
+  },
+  "hex-to-bytes-and-back": {
+    "title": "Hex to Bytes and Back",
+    "slug": "hex-to-bytes-and-back",
+    "filename": "hex_to_bytes_and_back",
+    "date": "15/09/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["typescript_javascript", "code", "math"]
+  },
   "rss-feed": {
     "title": "RSS!",
     "slug": "rss-feed",

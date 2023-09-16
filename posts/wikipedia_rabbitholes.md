@@ -18,7 +18,7 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
 - [Xi'an Incident](https://en.wikipedia.org/wiki/Xi%27an_Incident), where [Chiang Kai-shek](https://en.wikipedia.org/wiki/Chiang_Kai-shek) (leader of the Nationalists) is kidnapped by his generals [Yang Hucheng](https://en.wikipedia.org/wiki/Yang_Hucheng) and [Chang Hsueh-liang](https://en.wikipedia.org/wiki/Chang_Hsueh-liang), and forced to cooperate with the Communists against the invading Japanese
 - [Abdullah Öcalan](https://en.wikipedia.org/wiki/Abdullah_%C3%96calan), imprisoned [PKK](https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party) leader
-- [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga), Japanese warlord, who died because of the [Honnō-ji Incident](https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident)
+- [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga), extremely notable Japanese warlord, who was killed in the [Honnō-ji Incident](https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident)
 - [Ishiyama Hongan-ji](https://en.wikipedia.org/wiki/Ishiyama_Hongan-ji), former [Jōdo Shinshū](https://en.wikipedia.org/wiki/J%C5%8Ddo_Shinsh%C5%AB) temple/fortress, was burned down and replaced by [Osaka Castle](https://en.wikipedia.org/wiki/Osaka_Castle), and the reason why the city of [Osaka](https://en.wikipedia.org/wiki/Osaka) exists
 - [Peninsular War](https://en.wikipedia.org/wiki/Peninsular_War), [Napoleon](https://en.wikipedia.org/wiki/Napoleon)'s invasion of Spain and Portugal
 - [Thomas Cochrane, 10th Earl of Dundonald](https://en.wikipedia.org/wiki/Thomas_Cochrane,_10th_Earl_of_Dundonald), successful British Navy officer accused of stock exchange fraud, later participating in [Liberating Expedition of Peru](https://en.wikipedia.org/wiki/Liberating_Expedition_of_Peru) from the Spanish
@@ -85,7 +85,7 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [An Lushan Rebellion](https://en.wikipedia.org/wiki/An_Lushan_Rebellion), An Lushan rebels, greatly weakened the Tang Dynasty
 - [Bahmani Sultanate](https://en.wikipedia.org/wiki/Bahmani_Sultanate), South Indian empire
 - [Pagan Empire](https://en.wikipedia.org/wiki/Pagan_Kingdom), the first Burmese kingdom
-- [warsaw Uprising](https://en.wikipedia.org/wiki/Warsaw_Uprising)
+- [Warsaw Uprising](https://en.wikipedia.org/wiki/Warsaw_Uprising)
 - [Polish-Lithuanian Commonwealth](https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth)
 - [Atoll](https://en.wikipedia.org/wiki/Atoll)
 - [Chambre introuvable](https://en.wikipedia.org/wiki/Chambre_introuvable), ultra-royalists Chamber of Deputies elected after the Second Bourbon Restoration
@@ -93,3 +93,31 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Battle of Nagashino](https://en.wikipedia.org/wiki/Battle_of_Nagashino), where Takeda Katsuyori learns it is not a good idea to cavalry charge into gunfire
 - [Twenty-Four Generals of Takeda Shingen](https://en.wikipedia.org/wiki/Twenty-Four_Generals_of_Takeda_Shingen), related to the Battle of Nagashino above, but too interesting to leave out
 - [Battle of Bannockburn](https://en.wikipedia.org/wiki/Battle_of_Bannockburn), decisive Scottish victory in the First War of Scottish Independence
+- [Three Gorges](https://en.wikipedia.org/wiki/Three_Gorges), are three gorges, in China
+- [Annexation of Hyderabad](https://en.wikipedia.org/wiki/Annexation_of_Hyderabad)
+- [Emperor Xuanzong of Tang (9th century)](https://en.wikipedia.org/wiki/Emperor_Xuanzong_of_Tang_%289th_century%29)
+- [List of coups and coup attempts](https://en.wikipedia.org/wiki/List_of_coups_and_coup_attempts)
+- [Lazarus Group](https://en.wikipedia.org/wiki/Lazarus_Group), North Korean hackers
+- [Pasquale Paoli](https://en.wikipedia.org/wiki/Pasquale_Paoli), Corsican nationalist admired by Napoleon
+- [Doge (title)](https://en.wikipedia.org/wiki/Doge_%28title%29), like a King, but elected
+- [Frank Serpico](https://en.wikipedia.org/wiki/Frank_Serpico), New York Police Department whistleblower
+- [Inner Mongolia Incident](https://en.wikipedia.org/wiki/Inner_Mongolia_incident), part of the Cultural Revolution
+- [Nationalist Party of Puerto_Rico](https://en.wikipedia.org/wiki/Nationalist_Party_of_Puerto_Rico)
+- [Rotating locomotion in living systems](https://en.wikipedia.org/wiki/Rotating_locomotion_in_living_systems)
+- [Japanese dialects](https://en.wikipedia.org/wiki/Japanese_dialects)
+- [Ihor Kolomoyskyi](https://en.wikipedia.org/wiki/Ihor_Kolomoyskyi), Ukrainian oligarch
+- [Anglophone Crisis](https://en.wikipedia.org/wiki/Anglophone_Crisis), war in Cameroon due to tensions between English speakers and French speakers
+- [Kivu conflict](https://en.wikipedia.org/wiki/Kivu_conflict)
+- [History of Somalia](https://en.wikipedia.org/wiki/History_of_Somalia)
+- [Migration Period](https://en.wikipedia.org/wiki/Migration_Period), which led to the fall of the Western Roman Empire
+- [Hydrofoil](https://en.wikipedia.org/wiki/Hydrofoil)
+- [General Sherman (tree)](https://en.wikipedia.org/wiki/General_Sherman_%28tree%29), very big and very old
+- [Simón Bolívar](https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar), South American revolutionary hero
+- [Battle of Dibrivka](https://en.wikipedia.org/wiki/Battle_of_Dibrivka)
+- [Battle of the Teutoburg Forest](https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest)
+- [Intentional Community](https://en.wikipedia.org/wiki/Intentional_community)
+- [Jellyfish](https://en.wikipedia.org/wiki/Jellyfish) are apparently "the informal common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa"
+- [Sinecure](https://en.wikipedia.org/wiki/Sinecure), get paid to do nothing
+- [Yelü Dashi](https://en.wikipedia.org/wiki/Yel%C3%BC_Dashi), founder of the Western Liao dynasty
+- [List of Unicode characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
+- [Operation Cyclone](https://en.m.wikipedia.org/wiki/Operation_Cyclone), where the CIA funds Islamist groups to fight against the communist Afghan government
