@@ -121,3 +121,14 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Yelü Dashi](https://en.wikipedia.org/wiki/Yel%C3%BC_Dashi), founder of the Western Liao dynasty
 - [List of Unicode characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 - [Operation Cyclone](https://en.m.wikipedia.org/wiki/Operation_Cyclone), where the CIA funds Islamist groups to fight against the communist Afghan government
+- [Witold Pilecki](https://en.wikipedia.org/wiki/Witold_Pilecki), brave Polish soldier who intentionally got sent to Auschwitz to spy, *then* voluntarily returned to Communist Poland, again to spy, and was executed
+- [Ascall mac Ragnaill](https://en.wikipedia.org/wiki/Ascall_mac_Ragnaill), Last Norse-Gaelic King of Dublin
+- [Iodine](https://en.wikipedia.org/wiki/Iodine), the element
+- [Riot control](https://en.wikipedia.org/wiki/Riot_control)
+- [Feoffment](https://en.wikipedia.org/wiki/Feoffment), land for loyalty
+- [Kent State shootings](https://en.wikipedia.org/wiki/Kent_State_shootings), US National Guard shoots students protesting against US involvement in Cambodia during the Vietnam War
+- [Mountain men](https://en.wikipedia.org/wiki/Mountain_man)
+- [1728 Musin Rebellion](https://en.wikipedia.org/wiki/1728_Musin_Rebellion) against the Korean Joseon Dynasty
+- [Kurt Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del), mathematician
+- [Joe Hill](https://en.wikipedia.org/wiki/Joe_Hill_%28activist%29)
+- [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG), a (probably) NSA backdoored random number generator
