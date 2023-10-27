@@ -132,3 +132,28 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Kurt Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del), mathematician
 - [Joe Hill](https://en.wikipedia.org/wiki/Joe_Hill_%28activist%29)
 - [Dual_EC_DRBG](https://en.wikipedia.org/wiki/Dual_EC_DRBG), a (probably) NSA backdoored random number generator
+- [English-based creole languages](https://en.wikipedia.org/wiki/English-based_creole_languages)
+- [Austro-Hungarian concession of Tianjin](https://en.wikipedia.org/wiki/Austro-Hungarian_concession_of_Tianjin)
+- [Steve Mann (inventor)](https://en.wikipedia.org/wiki/Steve_Mann_%28inventor%29), inventor of wearable computing technology
+- [Kronstadt rebellion](https://en.wikipedia.org/wiki/Kronstadt_rebellion), revolt against the Bolsheviks by Soviet soldiers
+- [Great Purge](https://en.wikipedia.org/wiki/Great_Purge), Stalin purges a lot of people
+- [Iranian Revolution](https://en.wikipedia.org/wiki/Iranian_Revolution)
+- [Cultural Revolution](https://en.wikipedia.org/wiki/Cultural_Revolution), which didn't turn out very well at all
+- [National Treasure (Japan)](https://en.wikipedia.org/wiki/National_Treasure_%28Japan%29)
+- [Protozoa](https://en.wikipedia.org/wiki/Protozoa)
+- [Akira Kurosawa](https://en.wikipedia.org/wiki/Akira_Kurosawa), filmmaker
+- [Isle of Man](https://en.wikipedia.org/wiki/Isle_of_Man)
+- [Fantastic War](https://en.wikipedia.org/wiki/Fantastic_War), fought between Spain and Portugal as part of the [Seven Years' War](https://en.wikipedia.org/wiki/Seven_Years%27_War). Was not fantastic for Spain, since they lost
+- [Nikoli](https://en.wikipedia.org/wiki/Nikoli_%28publisher%29), publisher of puzzle gmaes like Sudoku
+- [Sikkim](https://en.wikipedia.org/wiki/Sikkim)
+- [Subutai](https://en.wikipedia.org/wiki/Subutai), Mongol general who invaded Hungary
+- [Free speech fights](https://en.wikipedia.org/wiki/Free_speech_fights), usually suppression of labour issue related speech
+- [Sesshū Tōyō](https://en.wikipedia.org/wiki/Sessh%C5%AB_T%C5%8Dy%C5%8D), painter
+- [Java War (1741–1743)](https://en.wikipedia.org/wiki/Java_War_%281741%E2%80%931743%29)
+- [Tuareg people](https://en.wikipedia.org/wiki/Tuareg_people)
+- [Amnesty International](https://en.wikipedia.org/wiki/Amnesty_International)
+- [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange)
+- [Bukharian (Judeo-Tajik dialect)](https://en.wikipedia.org/wiki/Bukharian_%28Judeo-Tajik_dialect%29)
+- [Qt (software)](https://en.wikipedia.org/wiki/Qt_%28software%29), for developing GUIs
+- [Sailfish OS](https://en.wikipedia.org/wiki/Sailfish_OS)
+- [SerenityOS](https://en.wikipedia.org/wiki/SerenityOS)

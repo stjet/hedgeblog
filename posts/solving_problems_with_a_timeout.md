@@ -1,3 +1,5 @@
+> **Update, October 2023**: I realize I was being kind of an idiot. In retrospect, what I should've done was have the MongoDB operation be a `replaceOne` that *only* modifies if the damage dealt is under the hp - so it would only be possible for a write to happen for one player even if two click at the same time. Then, I could check the return value of the `replaceOne` (which tells me whether the operation modified documents or not), and discard any fake winners whose clicks did not result in the database being modified. Beware that if you continue reading, you will encounter a very stupid solution to a problem.
+
 Recently, I've been working on a discord bot game for Beer Goggles NFT on Algorand.
 
 The specifics aren't too important, but essentially the game works like this: A game is started by an admin, and a secret number of hp is specified. Then, players can click a button, and depending on the amount of NFTs they hold, they will do "damage". All the damage is added up, and the person who crosses the secret number of hp wins. Like a pinata. Or in the case of our bar themed game, a huge opaque mug of beer that is passed around, with the goal being the one to finish the drink.
@@ -17,5 +19,3 @@ What did work though, is adding a random delay using `setTimeout` and `Math.rand
 Technically, if the random delay was the same or only a few milliseconds different, the global variable could be looked at the same time, and two winners (or more) could still be announced.
 
 ... let's not worry about that
-
-> (A quick update: in several dozen games, after the fix, the two winner situation never happened again. It wasn't elegant and it was a dumb solution, but it worked! Maybe there was a better solution by fiddling with the database settings, like making database calls queue one at a time?)

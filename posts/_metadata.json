@@ -7,6 +7,22 @@
     "author": "jetstream0/Prussia",
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "downloading-my-spotify-playlist-for-free": {
+    "title": "Downloading my Spotify Playlist for Free",
+    "slug": "downloading-my-spotify-playlist-for-free",
+    "filename": "downloading_my_spotify_playlist_for_free",
+    "date": "27/10/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "typescript_javascript", "bash"]
+  },
+  "ryuji-rust": {
+    "title": "Ryuji Rust",
+    "slug": "ryuji-rust",
+    "filename": "ryuji_rust",
+    "date": "27/10/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["rust", "project"]
+  },
   "llm": {
     "title": "LLM",
     "slug": "llm",

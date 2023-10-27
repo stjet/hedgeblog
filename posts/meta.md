@@ -179,6 +179,9 @@ npm run test
 ```
 
 ## Todo
-In the future, I would love to have those fun box gifs you used to see on geocities and other websites (like the ones on the bottom of the [pensquid](https://pensquid.net/) website), plus also something similar to [Wikipedia Userboxes](https://en.wikipedia.org/wiki/Wikipedia:Userboxes).
+In the future, I would love to have those fun box gifs^\[0\]^ you used to see on geocities and other websites (like the ones on the bottom of the [pensquid](https://pensquid.net/) website), plus also something similar to [Wikipedia Userboxes](https://en.wikipedia.org/wiki/Wikipedia:Userboxes).
 
 And I'll keep improving the site and fixing bugs, and occasionally write articles for the roughly four readers of this blog.
+
+===
+- \[0\]: This has been done! Plus, there's a [RSS feed](/posts/rss-feed) now too.
