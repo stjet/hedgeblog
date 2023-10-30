@@ -18,7 +18,7 @@ createServer((req, res) => {
     return res.end();
   }
   //set content type
-  let non_utf8_content_types: string[] = ["image/png", "image/gif"];
+  let non_utf8_content_types: string[] = ["image/png", "image/gif", "image/jpeg", "video/mp4"];
   let content_type: string;
   switch (req_path.split(".")[1]) {
     case "html":
@@ -39,6 +39,12 @@ createServer((req, res) => {
       break;
     case "gif":
       content_type = "image/gif";
+      break;
+    case "jpg":
+      content_type = "image/jpeg";
+      break;
+    case "mp4":
+      content_type = "video/mp4";
       break;
     default:
       content_type = "text/plain";
