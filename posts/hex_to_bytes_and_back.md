@@ -51,7 +51,7 @@ Here, we determine how many whole bytes^\[4\]^ are in the hex string, by diving 
 
 By the way, doing, for example, `new Uint8Array(5)`, will initialize an `Uint8Array` of all 0s, of length 5.
 
-This function, as written, isn't designed to take in invalid input, so make sure to valid any inputs. In fact, I would encourage you to go and write your own conversion functions, instead of copy pasting these examples. You'll (hopefully) understand the concepts much faster that way.
+This function, as written, isn't designed to take in invalid input, so make sure to validate any inputs. In fact, I would encourage you to go and write your own conversion functions, instead of copy pasting these examples. You'll (hopefully) understand the concepts much faster that way.
 
 ===
 - \[0\]: ±50 thousand lines (estimating skills are not my strong suit).
