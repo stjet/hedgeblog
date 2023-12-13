@@ -9,14 +9,14 @@ Anyways, using Fermat's Little Theorem, I wanted to create a little function tha
 
 Then, for each check, we can generate a random `x`, calculate `x\^N - x`. If we call that, say, `m`, then we can do `m % N`, where `%` means modulo. If `m % N` is zero, that means `m` is a multiple of `N`, so we continue. If not, then we know the input is **not** a prime number, and can end it there. If we generate `x` many times, and `m % N` is always `0`, we can conclude with high probability that the input is a prime.
 
-At first, I mistakenly did `N % m`, but that means `m` is a factor (not a *multiple*) of `N`, and `N` would be by definition, not a prime number (only factors of a prime number are itself and 1). I realised the problem pretty quickly.
+At first, I mistakenly did `N % m === 0`, but that means `m` is a factor (not a *multiple*) of `N`, and `N` would be by definition, not a prime number (assuming `m` is not or `N`, as the only factors of a prime number are itself and 1). I realised the problem pretty quickly.
 
 After fixing that, this is the code I had:
 
 ```js
 function is_prime(potential_prime, iterations=50) {
   for (let i=0; i < iterations; i++) {
-    let x = BigInt(Math.floor(Math.random()*10000)); //0 =< x =< 9999
+    let x = BigInt(Math.floor(Math.random()*10000)); //0 <= x <= 9999
     let m = x**potential_prime - x;
     if (m%potential_prime !== BigInt(0)) {
       return false;

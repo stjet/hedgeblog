@@ -80,7 +80,6 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Howard Zinn](https://en.wikipedia.org/wiki/Howard_Zinn), controversial historian
 - [Gnosticism](https://en.wikipedia.org/wiki/Gnosticism) was a set of early Christian beliefs
 - [TempleOS](https://en.wikipedia.org/wiki/TempleOS)
-- [Grendel's mother](https://en.wikipedia.org/wiki/Grendel's_mother), an antagonist in the Old English epic poem, Beowulf, who scholars debate whether is a monster or just a female warrior
 - [Epic of Gilgamesh](https://en.wikipedia.org/wiki/Epic_of_Gilgamesh), Sumerian epic poem
 - [An Lushan Rebellion](https://en.wikipedia.org/wiki/An_Lushan_Rebellion), An Lushan rebels, greatly weakened the Tang Dynasty
 - [Bahmani Sultanate](https://en.wikipedia.org/wiki/Bahmani_Sultanate), South Indian empire
@@ -157,3 +156,52 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Qt (software)](https://en.wikipedia.org/wiki/Qt_%28software%29), for developing GUIs
 - [Sailfish OS](https://en.wikipedia.org/wiki/Sailfish_OS)
 - [SerenityOS](https://en.wikipedia.org/wiki/SerenityOS)
+- [Puputan](https://en.wikipedia.org/wiki/Puputan), Balinese mass ritual suicide instead of surrender
+- [Harrying of the North](https://en.wikipedia.org/wiki/Harrying_of_the_North), the Normans put down English rebellions
+- [Austerity](https://en.wikipedia.org/wiki/Austerity)
+- [Muqtada al-Sadr](https://en.wikipedia.org/wiki/Muqtada_al-Sadr), Iraqi militia leader
+- [Messier objects](https://en.wikipedia.org/wiki/Messier_object), 110 non-comet space objects that the astronomer Messier recorded
+- [De jure](https://en.wikipedia.org/wiki/De_jure)
+- [Iona Nikitchenko](https://en.wikipedia.org/wiki/Iona_Nikitchenko), Soviet judge who had trouble writing a dissenting opinion because that was not done in Soviet law
+- [Interstate Highway System](https://en.wikipedia.org/wiki/Interstate_Highway_System), an American highway system
+- [Bushrangers](https://en.wikipedia.org/wiki/Bushranger), Australian escaped convicts turned outlaws
+- [Eyuwan Soviet](https://en.wikipedia.org/wiki/Eyuwan_Soviet), a Chinese government led by a rival of Mao Zedong
+- [Altai Mountains](https://en.wikipedia.org/wiki/Altai_Mountains)
+- [Republic of Genoa](https://en.wikipedia.org/wiki/Republic_of_Genoa)
+- [Moral rights](https://en.wikipedia.org/wiki/Moral_rights)
+- [Seaplane tender](https://en.wikipedia.org/wiki/Seaplane_tender), an early type of aircraft carrier
+- [List of cities founded by Alexander the Great](https://en.wikipedia.org/wiki/List_of_cities_founded_by_Alexander_the_Great)
+- [Microcode](https://en.wikipedia.org/wiki/Microcode), translates machine code into CPU operations
+- [Army of Sambre and Meuse](https://en.wikipedia.org/wiki/Army_of_Sambre_and_Meuse), a French revolutionary army
+- [Governor General of Canada](https://en.wikipedia.org/wiki/Governor_General_of_Canada)
+- [European Convention on Human Rights](https://en.wikipedia.org/wiki/European_Convention_on_Human_Rights)
+- [Túpac Amaru](https://en.wikipedia.org/wiki/T%C3%BApac_Amaru)
+- [Fossil](https://en.wikipedia.org/wiki/Fossil)
+- [Vi](https://en.wikipedia.org/wiki/Vi), a text editor
+- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_%28programming_language%29), a lisp dialect
+- [Trans-Neptunian object](https://en.wikipedia.org/wiki/Trans-Neptunian_object)
+- [Brackish water](https://en.wikipedia.org/wiki/Brackish_water), salty, but not that salty
+- [May Days](https://en.wikipedia.org/wiki/May_Days), infighting between the Spanish Republican faction
+- [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+- [Bo Xilai](https://en.wikipedia.org/wiki/Bo_Xilai), disgraced Chinese politician
+- [Zapatista Army of National Liberation](https://en.wikipedia.org/wiki/Zapatista_Army_of_National_Liberation)
+- [Materiel](https://en.wikipedia.org/wiki/Materiel)
+- [Mindanao](https://en.wikipedia.org/wiki/Mindanao), Filipino island
+- [Autonomous communities of Spain](https://en.wikipedia.org/wiki/Autonomous_communities_of_Spain)
+- [Ba'ath_Party](https://en.wikipedia.org/wiki/Ba'ath_Party)
+- [Ink wash painting](https://en.wikipedia.org/wiki/Ink_wash_painting)
+- [Dahomey](https://en.wikipedia.org/wiki/Dahomey), West African kingdom
+- [Palmer Raids](https://en.wikipedia.org/wiki/Palmer_Raids), a series of raids by the US government to deport suspected leftists
+- [Stingray phone tracker](https://en.wikipedia.org/wiki/Stingray_phone_tracker), which mimicks a cell tower
+- [Vettius Agorius Praetextatus](https://en.wikipedia.org/wiki/Vettius_Agorius_Praetextatus), 4th century Roman pagan aristocrat and high-ranking priest
+- [Inca architecture](https://en.wikipedia.org/wiki/Inca_architecture)
+- [Matteo Ricci](https://en.wikipedia.org/wiki/Matteo_Ricci), one of the most important priests of the Jesuit missions in China
+- [Pop art](https://en.wikipedia.org/wiki/Pop_art)
+- [Battle of Actium](https://en.wikipedia.org/wiki/Battle_of_Actium), where Octavian defeats Mark Antony
+- [Favourite](https://en.wikipedia.org/wiki/Favourite), a close companion to a ruler
+- [Heshen](https://en.wikipedia.org/wiki/Heshen), an extremely corrupt Chinese imperial official who amassed the equivalent of 270 billion USD
+- [List of richest Americans in history](https://en.wikipedia.org/wiki/List_of_richest_Americans_in_history)
+- [Proscription](https://en.wikipedia.org/wiki/Proscription), government degree declaring one an enemy of the state, originating in the late Roman Republic
+- [Cato the Younger](https://en.wikipedia.org/wiki/Cato_the_Younger), Roman politician
+- [Cicero](https://en.wikipedia.org/wiki/Cicero), prolific writer and Roman politician
+- [Moro people](https://en.wikipedia.org/wiki/Moro_people)

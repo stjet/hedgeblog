@@ -39,7 +39,7 @@ Ryuji syntax is typically in the format `[[ something ]]` or `[[ some:thing ]]` 
 ```html
 <ul>
   [[ for:trees:tree:index ]]
-  <!--index starts at zero, but you get the point-->
+    <!--index starts at zero, but you get the point-->
     <li>[[ index ]]. There is a [[ tree.type ]] tree that is [[ tree.height ]] metres tall.</li>
   [[ endfor ]]
 </ul>

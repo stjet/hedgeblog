@@ -7,6 +7,30 @@
     "author": "jetstream0/Prussia",
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "hash-functions": {
+    "title": "Hash Functions",
+    "slug": "hash-functions",
+    "filename": "hash_functions",
+    "date": "13/12/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["cryptography"]
+  },
+  "rushed-captcha": {
+    "title": "Rushed Captcha Rewrite",
+    "slug": "rushed-captcha-rewrite",
+    "filename": "rushed_captcha_rewrite",
+    "date": "13/12/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["project", "hosting", "typescript_javascript", "ruby", "faucets"]
+  },
+  "dbless-captcha": {
+    "title": "DBless Captcha",
+    "slug": "dbless-captcha",
+    "filename": "dbless_captcha",
+    "date": "13/11/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["project", "ruby", "docs"]
+  },
   "downloading-my-spotify-playlist-for-free": {
     "title": "Downloading my Spotify Playlist for Free",
     "slug": "downloading-my-spotify-playlist-for-free",
@@ -85,7 +109,7 @@
     "filename": "190k_faucet",
     "date": "12/02/2023",
     "author": "jetstream0/Prussia",
-    "tags": ["project", "web", "milestone", "cryptocurrency"]
+    "tags": ["project", "web", "milestone", "cryptocurrency", "faucets"]
   },
   "adding-commas": {
     "title": "Adding Commas to Numbers",
