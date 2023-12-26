@@ -21,7 +21,7 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga), extremely notable Japanese warlord, who was killed in the [Honnō-ji Incident](https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident)
 - [Ishiyama Hongan-ji](https://en.wikipedia.org/wiki/Ishiyama_Hongan-ji), former [Jōdo Shinshū](https://en.wikipedia.org/wiki/J%C5%8Ddo_Shinsh%C5%AB) temple/fortress, was burned down and replaced by [Osaka Castle](https://en.wikipedia.org/wiki/Osaka_Castle), and the reason why the city of [Osaka](https://en.wikipedia.org/wiki/Osaka) exists
 - [Peninsular War](https://en.wikipedia.org/wiki/Peninsular_War), [Napoleon](https://en.wikipedia.org/wiki/Napoleon)'s invasion of Spain and Portugal
-- [Thomas Cochrane, 10th Earl of Dundonald](https://en.wikipedia.org/wiki/Thomas_Cochrane,_10th_Earl_of_Dundonald), successful British Navy officer accused of stock exchange fraud, later participating in [Liberating Expedition of Peru](https://en.wikipedia.org/wiki/Liberating_Expedition_of_Peru) from the Spanish
+- [Thomas Cochrane, 10th Earl of Dundonald](https://en.wikipedia.org/wiki/Thomas_Cochrane,_10th_Earl_of_Dundonald), successful British Navy officer accused of stock exchange fraud, and later participated in the [Liberating Expedition of Peru](https://en.wikipedia.org/wiki/Liberating_Expedition_of_Peru) from the Spanish
 - [Indonesia invades East Timor](https://en.wikipedia.org/wiki/Indonesian_invasion_of_East_Timor) to overthrow [Fretilin](https://en.wikipedia.org/wiki/Fretilin)
 - [Special Region of Yogyakarta](https://en.wikipedia.org/wiki/Special_Region_of_Yogyakarta), a region of Indonesia *currently* hereditarily ruled by the [Yogyakarta Sultanate](https://en.wikipedia.org/wiki/Yogyakarta_Sultanate) and the [Duchy of Pakualaman](https://en.wikipedia.org/wiki/Pakualaman)
 - [Nanboku-chō period](https://en.wikipedia.org/wiki/Nanboku-ch%C5%8D_period), when two opposing Japanese Imperial Courts existed, after the overthrow of the [Kamakura Shogunate](https://en.wikipedia.org/wiki/Kamakura_shogunate) and the failure of the [Kenmu Restoration](https://en.wikipedia.org/wiki/Kenmu_Restoration)
@@ -114,7 +114,7 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Simón Bolívar](https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar), South American revolutionary hero
 - [Battle of Dibrivka](https://en.wikipedia.org/wiki/Battle_of_Dibrivka)
 - [Battle of the Teutoburg Forest](https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest)
-- [Intentional Community](https://en.wikipedia.org/wiki/Intentional_community)
+- [Intentional community](https://en.wikipedia.org/wiki/Intentional_community)
 - [Jellyfish](https://en.wikipedia.org/wiki/Jellyfish) are apparently "the informal common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa"
 - [Sinecure](https://en.wikipedia.org/wiki/Sinecure), get paid to do nothing
 - [Yelü Dashi](https://en.wikipedia.org/wiki/Yel%C3%BC_Dashi), founder of the Western Liao dynasty
@@ -205,3 +205,5 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Cato the Younger](https://en.wikipedia.org/wiki/Cato_the_Younger), Roman politician
 - [Cicero](https://en.wikipedia.org/wiki/Cicero), prolific writer and Roman politician
 - [Moro people](https://en.wikipedia.org/wiki/Moro_people)
+- [Bogd Khan](https://en.wikipedia.org/wiki/Bogd_Khan)
+- [Pancho Villa Expedition](https://en.wikipedia.org/wiki/Pancho_Villa_Expedition)

@@ -7,6 +7,22 @@
     "author": "jetstream0/Prussia",
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"]
   },
+  "bananopie": {
+    "title": "Bananopie",
+    "slug": "bananopie",
+    "filename": "bananopie",
+    "date": "26/12/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "python", "cryptocurrency"]
+  },
+  "golfing-and-scheming": {
+    "title": "Golfing and Scheming",
+    "slug": "golfing-and-scheming",
+    "filename": "golfing_and_scheming",
+    "date": "23/12/2023",
+    "author": "jetstream0/Prussia",
+    "tags": ["code", "typescript_javascript", "python", "scheme", "code golf"]
+  },
   "hash-functions": {
     "title": "Hash Functions",
     "slug": "hash-functions",
