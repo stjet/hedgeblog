@@ -107,6 +107,14 @@ label[for="dark-mode"]:hover {
   cursor: pointer;
 }
 
+label[for="dark-mode"]:hover::after {
+  text-shadow: #222 0 0 15px;
+}
+
+#dark-mode:checked + label[for="dark-mode"]:hover::after {
+  text-shadow: white 0 0 15px;
+}
+
 #dark-mode + label[for="dark-mode"]::after {
   color: black;
   content: "🌙";
@@ -115,6 +123,10 @@ label[for="dark-mode"]:hover {
 #dark-mode:checked + label[for="dark-mode"]::after {
   color: white;
   content: "☀️";
+}
+
+html:has(#dark-mode:checked) {
+  scrollbar-color: #747474 #222;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -136,5 +148,21 @@ label[for="dark-mode"]:hover {
   #dark-mode:checked ~ #main {
     background-color: white;
     color: #222;
+  }
+
+  label[for="dark-mode"]:hover::after {
+    text-shadow: white 0 0 15px;
+  }
+  
+  #dark-mode:checked + label[for="dark-mode"]:hover::after {
+    text-shadow: #222 0 0 15px;
+  }
+
+  html:has(#dark-mode) {
+    scrollbar-color: #747474 #222;
+  }
+
+  html:has(#dark-mode:checked) {
+    scrollbar-color: auto;
   }
 }

@@ -1,5 +1,5 @@
-import { Renderer } from './ryuji.js';
-import { test_assert_equal, log_test_results } from './endosulfan.js';
+import { Renderer } from "./ryuji.js";
+import { test_assert_equal, log_test_results } from "./endosulfan.js";
 
 //tests for ryuji
 
