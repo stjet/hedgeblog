@@ -1,6 +1,6 @@
-import * as path from 'path';
-import { copyFileSync, existsSync, readdirSync, rmSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
-import type { Renderer } from './ryuji.js';
+import * as path from "path";
+import { copyFileSync, existsSync, readdirSync, rmSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import type { Renderer } from "./ryuji.js";
 
 export class Builder {
   build_dir: string;

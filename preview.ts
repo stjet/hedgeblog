@@ -1,6 +1,6 @@
-import { createServer } from 'http';
-import * as path from 'path';
-import { existsSync, readFileSync } from 'fs';
+import { createServer } from "http";
+import * as path from "path";
+import { existsSync, readFileSync } from "fs";
 
 const port: number = 8042;
 
@@ -50,7 +50,7 @@ createServer((req, res) => {
       content_type = "text/plain";
   }
   res.writeHead(200, {
-    'Content-Type': content_type,
+    "Content-Type": content_type,
   });
   //write file
   if (non_utf8_content_types.includes(content_type)) {

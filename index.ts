@@ -1,10 +1,10 @@
-import * as path from 'path';
-import { readFileSync } from 'fs';
-import { parse_md_to_html } from 'makoto';
-import { Renderer } from './ryuji.js';
-import { Builder } from './saki.js';
-import _posts_metadata from './posts/_metadata.json';
-import _site_info from './site_info.json';
+import * as path from "path";
+import { readFileSync } from "fs";
+import { parse_md_to_html } from "makoto";
+import { Renderer } from "./ryuji.js";
+import { Builder } from "./saki.js";
+import _posts_metadata from "./posts/_metadata.json";
+import _site_info from "./site_info.json";
 
 export interface PostMetadata {
   title: string,
