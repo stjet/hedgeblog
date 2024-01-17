@@ -7,30 +7,31 @@ import _posts_metadata from "./posts/_metadata.json";
 import _site_info from "./site_info.json";
 
 export interface PostMetadata {
-  title: string,
-  slug: string,
-  filename: string,
-  date: string,
-  author: string,
-  tags: string[],
+  title: string;
+  slug: string;
+  filename: string;
+  date: string;
+  author: string;
+  tags: string[];
+  archived: boolean;
 }
 
 export interface Post extends PostMetadata {
-  md_lines: string[],
-  html: string,
-  tags_exist: boolean,
+  md_lines: string[];
+  html: string;
+  tags_exist: boolean;
 }
 
 export interface RSSPost extends PostMetadata {
-  url: string,
-  last_updated: string,
-  html: string,
+  url: string;
+  last_updated: string;
+  html: string;
 }
 
 export interface SiteInfo {
-  title: string,
-  url: string,
-  icon: string,
+  title: string;
+  url: string;
+  icon: string;
 }
 
 let renderer: Renderer = new Renderer("templates", "components");
@@ -42,7 +43,13 @@ builder.serve_static_folder("static");
 
 //home page
 builder.serve_template(renderer, "/", "index", {
-  posts: posts_metadata,
+  posts: posts_metadata.filter((post) => !post.archived),
+});
+
+//archive page
+builder.serve_template(renderer, "/archive", "archive", {
+  archived_posts: posts_metadata.filter((post) => post.archived),
+  no_archived_posts: posts_metadata.filter((post) => post.archived).length === 0,
 });
 
 //404 page (github pages)
@@ -86,7 +93,7 @@ for (let i=0; i < posts_metadata.length; i++) {
     {
       post,
       next_post,
-      author_expected: post.author.toLowerCase().startsWith("jetstream0") || post.author.toLowerCase().startsWith("prussia"),
+      author_expected: post.author.toLowerCase().startsWith("jetstream0") || post.author.toLowerCase().startsWith("prussia") || post.author.toLowerCase().startsWith("stjet"),
     }
   );
 }
@@ -110,7 +117,7 @@ for (let i=0; i < tags.length; i++) {
 builder.serve_templates(renderer, tags_serve_paths, "tags", tags_vars);
 
 //build rss feed
-let first_posts: PostMetadata[] = posts_metadata.slice(0, 5); //not truly the recents, actually the first 5 posts in the json file, which is decided by me and usually the most recent posts
+let first_posts: PostMetadata[] = posts_metadata.filter((post) => !post.archived).slice(0, 5); //not truly the recents, actually the first 5 posts in the json file, which is decided by me and usually the most recent posts
 
 const site_info: SiteInfo = _site_info;
 
