@@ -79,6 +79,24 @@ Ryuji syntax is typically in the format `[[ something ]]` or `[[ some:thing ]]` 
 [[ endif ]]
 ```
 
+## If In List Statements
+*Not supported in ryuji-rust*
+
+```html
+[[ if:tree:*user.friends ]]
+  <p>Trees are friends, not food.</p>
+[[ endif ]]
+```
+
+## If Not In List Statements
+*Not supported in ryuji-rust*
+
+```html
+[[ if:tree:*!user.friends ]]
+  <p>Trees are food, not friends.</p>
+[[ endif ]]
+```
+
 ## Components
 ```html
 [[ component:nav-bar ]]
@@ -204,4 +222,4 @@ These are exported, but there is no real use for them (outside of the module obv
 # Usage Examples
 Check Ryuji's [tests](https://github.com/jetstream0/hedgeblog/blob/master/tests.ts) for more examples.
 
-There is a real world example in [hedgeblog's code](https://github.com/jetstream0/hedgeblog). For a syntax example, look in the `templates` [directory](https://github.com/jetstream0/hedgeblog/tree/master/templates), or an API example in `saki.ts` and `index.ts`.
+There is a real world example in [hedgeblog's code](https://github.com/jetstream0/hedgeblog). For a syntax example, look in the `templates` [directory](https://github.com/jetstream0/hedgeblog/tree/master/templates), or an API example in `saki.ts` and `index.ts`. [pla-den-tor](https://github.com/stjet/pla-den-tor) is another of my projects where Ryuji is used.

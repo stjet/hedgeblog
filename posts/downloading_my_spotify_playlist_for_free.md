@@ -71,4 +71,4 @@ Yay!
 This was a pretty "boring" project that didn't involve much thinking or code. But being able to automate small, tedious stuff like this is a pretty underrated perk of having even a little programming knowledge.
 
 ===
-- \[0\]: It's almost like artists are people too, and need to make money to support themselves! In all seriousness though, Spotify pays artists something like $0.003 USD per stream. It makes much more sense to support them through buying albums or going to concerts, instead of wasting time listening to ads.
+- \[0\]: It's almost like artists are people too, and need to make money to support themselves! In all seriousness though, Spotify pays artists something like $0.003 USD per stream. It makes much more sense to support them through buying albums or going to concerts, instead of wasting time listening to ads. Also, ads just suck.
