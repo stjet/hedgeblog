@@ -5,7 +5,8 @@
     "filename": "example",
     "date": "30/12/1999",
     "author": "Prussia",
-    "tags": ["example", "fake", "please remember to remove"]
+    "tags": ["example", "fake", "please remember to remove"],
+    "archived": false
   },
   "another_example": {
     "title": "Another Example!",
@@ -13,6 +14,16 @@
     "filename": "another_example",
     "date": "31/07/2023",
     "author": "John Dough",
-    "tags": ["example", "jia", "please remember to remove"]
+    "tags": ["example", "jia", "please remember to remove"],
+    "archived": false
+  },
+  "archived_post": {
+    "title": "Archived Post",
+    "slug": "archived",
+    "filename": "archived_post",
+    "date": "17/01/2024",
+    "author": "John Dough",
+    "tags": ["example"],
+    "archived": true
   }
 }

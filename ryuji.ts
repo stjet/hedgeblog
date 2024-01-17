@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:/\-_!]+ \]\]/g;
+export const SYNTAX_REGEX = /\[\[ [a-zA-Z0-9.:/\*\-_!]+ \]\]/g;
 
 export type file_extension = `.${string}`;
 
@@ -89,10 +89,10 @@ export class Renderer {
         if (recursion_layer > 5) throw Error("Components more than 5 layers deep, components may be referencing each other in infinite loop.");
         if (typeof exp_parts[1] !== "string") throw Error("`component:` statement missing component file name afterwards");
         let file_name: string = exp_parts[1];
-	if (!file_name.includes(".")) {
-	  file_name += this.file_extension;
-	}
-	rendered += this.render_template(Renderer.concat_path(this.components_dir, file_name), vars, recursion_layer+1);
+        if (!file_name.includes(".")) {
+          file_name += this.file_extension;
+        }
+        rendered += this.render_template(Renderer.concat_path(this.components_dir, file_name), vars, recursion_layer+1);
       } else if (exp_parts[0] === "for") {
         if (for_loops[for_loops.length-1]?.index === index) {
           //for loop already exists, just continue and do nothing
@@ -185,12 +185,21 @@ export class Renderer {
         } else {
           //compare with second var
           let var_name2: string = exp_parts[2];
+          let if_in: boolean = false;
           let if_not: boolean = false;
+          //*! is valid
+          if (var_name2.startsWith("*")) {
+            var_name2 = var_name2.slice(1, var_name2.length);
+            if_in = true;
+          }
           if (var_name2.startsWith("!")) {
             var_name2 = var_name2.slice(1, var_name2.length);
             if_not = true;
           }
           let var_value2 = Renderer.get_var(var_name2, vars);
+          if (if_in) {
+            var_value2 = var_value2.find((ele) => ele === var_value);
+          }
           if (if_not) {
             //make sure the two compared variables are NOT equal
             if (var_value !== var_value2) {

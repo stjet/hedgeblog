@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jetstream0/hedgeblog.git"
+    "url": "git+https://github.com/stjet/hedgeblog.git"
   },
-  "author": "jetstream0/prussia",
+  "author": "stjet/prussia",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/jetstream0/hedgeblog/issues"
+    "url": "https://github.com/stjet/hedgeblog/issues"
   },
-  "homepage": "https://github.com/jetstream0/hedgeblog#readme",
+  "homepage": "https://github.com/stjet/hedgeblog#readme",
   "dependencies": {
     "makoto": "^1.0.1"
   },

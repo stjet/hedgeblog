@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prussia fan club</title>
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="alternate" type="application/atom+xml" title="atom/rss feed for prussia fan club" href="/atom.xml"/>
+  </head>
+  <body>
+    [[ component:return ]]
+    [[ component:dark-mode-checkbox ]]
+    <div id="main">
+      <div>
+        <input id="fancy-title" type="checkbox"/><label for="fancy-title">Fancy Title</label>
+        <br>
+        <h2>prussiafan.club</h2>
+        <br>
+        <p>This is the archive of my blog, where posts bad enough to be hidden, but not terrible enough to be deleted, live.</p>
+        <p>Ah, what else? Uhhh... My favourite projects at the moment are <a href="https://github.com/stjet/pla-den-tor">pla-den-tor</a>, <a href="https://ztmy.prussia.dev">ztmy</a>, <a href="https://github.com/stjet/bananopie">bananopie</a>, <a href="https://mingde.prussia.dev">mingde</a>, and <a href="https://github.com/stjet/hedgeblog">this blog</a>. My favourite language is probably Lisp Scheme, but Typescript is nice too, except when it isn't.</p>
+        <p>You can also hire me!</p>
+      </div>
+      <div>
+        <ul>
+          [[ for:archived_posts:post ]]
+            [[ component:post-listing ]]
+          [[ endfor ]]
+          [[ if:no_archived_posts ]]
+            <li>No archived posts yet</li>
+          [[ endif ]]
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+
+//, and a place where you can <a href="https://prussia.dev/sample">hire me</a>
