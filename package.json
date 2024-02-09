@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/stjet/hedgeblog#readme",
   "dependencies": {
-    "makoto": "^1.0.1"
+    "makoto": "^1.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.4.5"
