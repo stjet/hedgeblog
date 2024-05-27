@@ -157,15 +157,15 @@ I was initially disappointed to see Scheme missing many "basic" utility function
 
 It's been a while since I had so much fun programming. To further learn Scheme, I then wrote my first project in Scheme, [rescli](https://github.com/jetstream0/rescli), a CLI interface for [Reservoir](https://github.com/jetstream0/reservoir), a bookmark organizer app I made. I'll talk about those in a different post.
 
-I also tried to learn Ocaml but just couldn't get over the horrible, horrible, syntax. Maybe I'll try again later (ReasonML's more familiar syntax might help).
-
 ## Why Learn Scheme?
 
-But anyways, why did I choose to learn Scheme?
+But anyways, how did I end up learning scheme?
 
-After writing Mingde, and a few Rust projects, I was thinking a lot about types. Specifically, how much I loved them (a lot). I was also a bit curious about functional programming.
+After writing [Mingde](https://github.com/stjet/mingde), and a few Rust projects, I was thinking a lot about types. Specifically, how much I loved them (hint: a lot). I was also curious about functional programming.
 
-Lisp Scheme is dynamically, not statically, typed (Typed Racket, which is similar, does though), which was a downside. But it's simplicity and lack of bloat was compelling enough for me to give it a try. I'm glad I did. Again, writing in Scheme has been the most fun I've had programming in months, possibly years. Functional programming really is a different, more fun, and arguably better way to think about programming. Avoiding variable mutation and recursing instead of iterating is just... fun. Having the entire language reference as a 3.3 mb PDF is pretty neat too. And I haven't even written a macro yet!
+Naturally, I looked for languages that combined both. Idris I simply could not wrap my head around (and might just be too obscure, even for me), and I found it too difficult to get into OCaml. I will probably try OCaml again later, maybe with ReasonML for more familiar syntax instead. Haskell is also on my "try later" list.
+
+Lisp Scheme is dynamically, not statically, typed (Typed Racket, a similar language, can be statically typed though), which was a bummer and initially discouraged me from trying it. But it's simplicity and lack of bloat was compelling enough for me to give it a try. I'm glad I did. Again, writing in Scheme has been the most fun I've had programming in months, possibly years. Functional programming really is a different, more fun, and arguably better way to think about programming. Avoiding variable mutation and recursing instead of iterating is just... fun. Having the entire language reference as a 3.3 mb PDF is pretty neat too. And I haven't even written a macro yet!
 
 S-expressions (the name for all those parentheses) are really simple to understand, and everything in general is pretty simple to understand. Do a brief read of Scheme Programming, then TSPL4 for reference.
 
