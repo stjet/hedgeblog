@@ -206,4 +206,12 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Cicero](https://en.wikipedia.org/wiki/Cicero), prolific writer and Roman politician
 - [Moro people](https://en.wikipedia.org/wiki/Moro_people)
 - [Bogd Khan](https://en.wikipedia.org/wiki/Bogd_Khan)
-- [Pancho Villa Expedition](https://en.wikipedia.org/wiki/Pancho_Villa_Expedition)
+- [Pancho Villa Expedition](https://en.wikipedia.org/wiki/Pancho_Villa_Expedition), Mexican revolutionary leader attacks an US town, US military retaliates
+- [Unicelluar organism](https://en.wikipedia.org/wiki/Unicellular_organism)
+- [Revolutions of 1848](https://en.wikipedia.org/wiki/Revolutions_of_1848), mostly failed democratic and liberal uprisings in Europe
+- [Donation of Pepin](https://en.wikipedia.org/wiki/Donation_of_Pepin), lead to the creation of the Papal States
+- [Informal economy](https://en.wikipedia.org/wiki/Informal_economy)
+- [Sinicization](https://en.wikipedia.org/wiki/Sinicization)
+- [Romansh language](https://en.wikipedia.org/wiki/Romansh_language), a national language of Switzerland
+- [Toyota Group](https://en.wikipedia.org/wiki/Toyota_Group)
+- [California grizzly bear](https://en.wikipedia.org/wiki/California_grizzly_bear), extinct

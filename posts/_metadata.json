@@ -4,8 +4,17 @@
     "slug": "meta",
     "filename": "meta",
     "date": "01/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
+    "archived": false
+  },
+  "two-types-of-brutalism": {
+    "title": "Two Types of Brutalism",
+    "slug": "two-types-of-brutalism",
+    "filename": "two_types_of_brutalism",
+    "date": "17/07/2024",
+    "author": "jet/Prussia",
+    "tags": ["brutalism", "web", "design"],
     "archived": false
   },
   "new-hobbies": {
@@ -13,7 +22,7 @@
     "slug": "new-hobbies",
     "filename": "new_hobbies",
     "date": "25/05/2024",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["manga", "toki_pona", "copyright"],
     "archived": false
   },
@@ -22,7 +31,7 @@
     "slug": "bananopie",
     "filename": "bananopie",
     "date": "26/12/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "python", "cryptocurrency"],
     "archived": false
   },
@@ -31,7 +40,7 @@
     "slug": "golfing-and-scheming",
     "filename": "golfing_and_scheming",
     "date": "23/12/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "typescript_javascript", "python", "scheme", "code golf"],
     "archived": false
   },
@@ -40,7 +49,7 @@
     "slug": "hash-functions",
     "filename": "hash_functions",
     "date": "13/12/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["cryptography"],
     "archived": false
   },
@@ -49,7 +58,7 @@
     "slug": "rushed-captcha-rewrite",
     "filename": "rushed_captcha_rewrite",
     "date": "13/12/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["project", "hosting", "typescript_javascript", "ruby", "faucets"],
     "archived": false
   },
@@ -58,7 +67,7 @@
     "slug": "dbless-captcha",
     "filename": "dbless_captcha",
     "date": "13/11/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["project", "ruby", "docs"],
     "archived": false
   },
@@ -67,7 +76,7 @@
     "slug": "downloading-my-spotify-playlist-for-free",
     "filename": "downloading_my_spotify_playlist_for_free",
     "date": "27/10/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "typescript_javascript", "bash"],
     "archived": false
   },
@@ -76,7 +85,7 @@
     "slug": "ryuji-rust",
     "filename": "ryuji_rust",
     "date": "27/10/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["rust", "project"],
     "archived": true 
   },
@@ -85,7 +94,7 @@
     "slug": "llm",
     "filename": "llm",
     "date": "16/09/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["opinion"],
     "archived": false
   },
@@ -94,7 +103,7 @@
     "slug": "hex-to-bytes-and-back",
     "filename": "hex_to_bytes_and_back",
     "date": "15/09/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["typescript_javascript", "code", "math"],
     "archived": false
   },
@@ -103,7 +112,7 @@
     "slug": "rss-feed",
     "filename": "rss_feed",
     "date": "19/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["meta", "typescript_javascript", "project", "web"],
     "archived": false
   },
@@ -112,7 +121,7 @@
     "slug": "fermats-little-theorem",
     "filename": "fermats_little_theorem",
     "date": "12/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "typescript_javascript", "math"],
     "archived": false
   },
@@ -121,7 +130,7 @@
     "slug": "wikipedia-rabbitholes",
     "filename": "wikipedia_rabbitholes",
     "date": "09/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["reading", "history", "wikipedia"],
     "archived": false
   },
@@ -130,7 +139,7 @@
     "slug": "eve",
     "filename": "eve",
     "date": "06/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["cryptography"],
     "archived": false
   },
@@ -139,7 +148,7 @@
     "slug": "month-start-unix",
     "filename": "month_start_unix",
     "date": "01/04/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "web", "typescript_javascript"],
     "archived": false
   },
@@ -148,7 +157,7 @@
     "slug": "190-faucet",
     "filename": "190k_faucet",
     "date": "12/02/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["project", "web", "milestone", "cryptocurrency", "faucets"],
     "archived": false
   },
@@ -157,7 +166,7 @@
     "slug": "adding-commas",
     "filename": "adding_commas",
     "date": "15/11/2022",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "typescript_javascript"],
     "archived": false
   },
@@ -166,7 +175,7 @@
     "slug": "solving-problems-with-a-timeout",
     "filename": "solving_problems_with_a_timeout",
     "date": "19/08/2022",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["bot", "typescript_javascript"],
     "archived": true
   },
@@ -175,7 +184,7 @@
     "slug": "gobanme-v1-2",
     "filename": "gobanme_v1-2",
     "date": "30/05/2022",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["release", "cryptocurrency"],
     "archived": true
   },
@@ -184,7 +193,7 @@
     "slug": "fake-typing-effect",
     "filename": "fake_typing_effect",
     "date": "27/01/2022",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "web", "typescript_javascript"],
     "archived": false
   },
@@ -193,7 +202,7 @@
     "slug": "ryuji-docs",
     "filename": "ryuji_docs",
     "date": "02/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "project", "web", "docs", "typescript_javascript"],
     "archived": false
   },
@@ -202,7 +211,7 @@
     "slug": "saki-docs",
     "filename": "saki_docs",
     "date": "02/08/2023",
-    "author": "jetstream0/Prussia",
+    "author": "jet/Prussia",
     "tags": ["code", "project", "web", "build", "docs", "typescript_javascript"],
     "archived": false
   }
