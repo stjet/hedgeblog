@@ -1,4 +1,4 @@
-I've written a lot of Javascript over the past few years. How much? I'm not sure, but 100 thousand lines is probably a good estimate^\[0\]^^\[1\]^. The two functions  that I've written the most, over and over, are no doubt the function to turn hexadecimals to bytes, and vice versa.
+I've written a lot of Javascript over the past few years. How much? I'm not sure, but 100 thousand lines is probably a good estimate^\[0\]^^\[1\]^. The two functions  that I've written the most, over and over (and over and over and over... and over), are no doubt the function to convert hexadecimals to bytes, and vice versa.
 
 Part of this is because I do a lot of stuff related to cryptography and cryptocurrency (which, no surprise, is basically just *more* cryptography), which involves tons of work with bytes and often, converting them to hex for storage or display. The other part is because Javascript doesn't have a builtin way to convert hex to bytes or the other way around (Node.js apparently has `Buffer.from` but I never use that), and also because I just like writing things from scratch, which you may notice is a common theme in this blog. In addition to my trademark unnecessarily long sentences, of course.
 
@@ -10,7 +10,7 @@ Bits have two states. Bytes are made out of eight bits, so one byte can have 256
 
 Now, there are a couple ways you can represent bytes. One way could be representing them in binary, with 1s and 0s. Another would be just using our normal decimal (base 10 numbers), where a byte could be represented by a number from 0 to 255. But the best way (in my opinion) is to use hexadecimals (base 16 numbers) which uses the digits 0-9 and A-F. `A` represents 10, `B` represents 11, and so on. `FF` would represent 255 in decimal (`15*16+15=255`), `10` would represent 16 (`1*16+0`), and `32` would represent 50 (`3*16+2=50`).
 
-Why base 16? If you remember, one byte can have 256 states, meaning that two hexadecimal digits can perfectly represent one byte (`16^2=256`) which is a lot more elegant than decimal, and a lot more concise than binary. With decimal, it isn't exactly clear how many bytes 2402655566 is, while it is very clear how many bytes 8F359D4E is (8 hex digits, so 4 bytes).
+Why base 16? If you remember, one byte can have 256 states, meaning that two hexadecimal digits can perfectly represent one byte (`16^2=256`) which is a lot more elegant than decimal, and a lot more concise than binary. A base 256 would of course, be impractical. With decimal, it isn't exactly clear how many bytes 2402655566 is, while it is very clear how many bytes 8F359D4E is (8 hex digits, so 4 bytes).
 
 ## Uint8Array
 

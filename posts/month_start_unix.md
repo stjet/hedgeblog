@@ -5,7 +5,7 @@ The beginning of the month would depend on your timezone, but we want the faucet
 Now, for writing the code for the countdown, I could just use Javascript's built in `Date` class. This is a slightly modified version of the code I came up with:
 
 ```js
-function get_next_month_unix() {
+function get_next_month_diff() {
   let current_date = new Date();
   //get Date object set to the beginning of the next month
   //if current month is january, next month will technically give the date of december 31st midnight but that's fine since that's the same time as january 1st 00:00:00
@@ -13,8 +13,9 @@ function get_next_month_unix() {
   //get difference in seconds between current time and the start of the next month
   return (next_month.getTime() - current_date.getTime()) / 1000;
 }
+
 setInterval(function() {
-  let seconds_until = get_next_month_unix();
+  let seconds_until = get_next_month_diff();
   //... rest of the code omitted
 }, 1000);
 ```
@@ -46,6 +47,10 @@ function get_next_month_unix() {
   //months * seconds in a month
   unix_timestamp += next_month*(60*60*24*30);
   return unix_timestamp;
+}
+
+function get_next_month_diff() {
+  return get_next_month_unix() - (Date.now() / 1000);
 }
 ```
 
@@ -89,6 +94,10 @@ function get_next_month_unix() {
     unix_timestamp += 60*60*24*days_months[String(i)];
   }
   return unix_timestamp;
+}
+
+function get_next_month_diff() {
+  return get_next_month_unix() - (Date.now() / 1000);
 }
 ```
 
@@ -144,6 +153,10 @@ function get_next_month_unix() {
     }
   }
   return unix_timestamp;
+}
+
+function get_next_month_diff() {
+  return get_next_month_unix() - (Date.now() / 1000);
 }
 ```
 

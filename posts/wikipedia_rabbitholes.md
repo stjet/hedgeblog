@@ -215,3 +215,7 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Romansh language](https://en.wikipedia.org/wiki/Romansh_language), a national language of Switzerland
 - [Toyota Group](https://en.wikipedia.org/wiki/Toyota_Group)
 - [California grizzly bear](https://en.wikipedia.org/wiki/California_grizzly_bear), extinct
+- [Cognates](https://en.wikipedia.org/wiki/Cognate) are word cousins
+- [Mun (religion)](https://en.wikipedia.org/wiki/Mun_(religion))
+- [Vaqueiros de alzada](https://en.wikipedia.org/wiki/Vaqueiros_de_alzada), nomads in northern Spain
+- [Muslim conquest of Persia](https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia)
