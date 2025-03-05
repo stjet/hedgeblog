@@ -11,11 +11,17 @@ createServer((req, res) => {
   } else {
     req_path = path.join(__dirname, "build", req.url);
   }
-  if (!existsSync(req_path)) {
-    res.writeHead(404);
-    //write file
-    res.write("404");
+  let status_code = 200;
+  //req.url.includes("..")
+  if (!req_path.startsWith(path.join(__dirname, "build"))) {
+    //nice try, bad request
+    res.writeHead(400);
+    res.write("400");
     return res.end();
+  } else if (!existsSync(req_path)) {
+    status_code = 404;
+    //serve 404 page instead of non-existent page
+    req_path = path.join(__dirname, "build", "404.html");
   }
   //set content type
   let non_utf8_content_types: string[] = ["image/png", "image/gif", "image/jpeg", "video/mp4"];
@@ -49,7 +55,7 @@ createServer((req, res) => {
     default:
       content_type = "text/plain";
   }
-  res.writeHead(200, {
+  res.writeHead(status_code, {
     "Content-Type": content_type,
   });
   //write file
