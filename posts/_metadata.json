@@ -12,9 +12,18 @@
     "title": "DNS Server Misadventures",
     "slug": "dns-server-misadventures",
     "filename": "dns_server_misadventures",
-    "date": "05/04/2024",
+    "date": "05/04/2025",
     "author": "jet/Prussia",
-    "tags": ["dns", "web"],
+    "tags": ["dns", "web", "intranet"],
+    "archived": false
+  },
+  "the-ming-wm-philosophy": {
+    "title": "The ming-wm Philosophy",
+    "slug": "the-ming-wm-philosophy",
+    "filename": "the_ming_wm_philosophy",
+    "date": "21/02/2025",
+    "author": "jet/Prussia",
+    "tags": ["project", "linux", "window_manager", "rust"],
     "archived": false
   },
   "operation-media-freedom": {
