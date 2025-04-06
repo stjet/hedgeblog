@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "dns-server-misadventures": {
+    "title": "DNS Server Misadventures",
+    "slug": "dns-server-misadventures",
+    "filename": "dns_server_misadventures",
+    "date": "05/04/2024",
+    "author": "jet/Prussia",
+    "tags": ["dns", "web"],
+    "archived": false
+  },
   "operation-media-freedom": {
     "title": "Operation Media Freedom",
     "slug": "operation-media-freedom",
