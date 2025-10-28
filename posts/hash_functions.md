@@ -44,5 +44,4 @@ Hashes can be a way to impose a cost in energy. Most famously, Bitcoin and many 
 
 Hashing is also a great way to derive cryptographic keys. For example, a password would usually not be able to be an encryption key, since encryption keys are typically a fixed length of bytes long. So, a password can be hashed, turning it into the right length, so it can be used in cryptography.
 
-
 Hashes are cool.

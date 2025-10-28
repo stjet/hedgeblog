@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "manga-translation-one-rule": {
+    "title": "What makes a manga translation good?",
+    "slug": "manga_translation_one_rule",
+    "filename": "manga_translation_one_rule",
+    "date": "28/10/2025",
+    "author": "prussianbluehedgehog",
+    "tags": ["manga", "complaint"],
+    "archived": false
+  },
   "dns-server-misadventures": {
     "title": "DNS Server Misadventures",
     "slug": "dns-server-misadventures",
@@ -131,7 +140,7 @@
     "filename": "llm",
     "date": "16/09/2023",
     "author": "jet/Prussia",
-    "tags": ["opinion"],
+    "tags": ["complaint"],
     "archived": false
   },
   "hex-to-bytes-and-back": {

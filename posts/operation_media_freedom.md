@@ -34,6 +34,8 @@ It should be implicit that spotify or similar services are not an option - I am 
 
 The code's nothing special. It uses Ryuji for templating and Saki as a build system, same as this blog. The player code is a lot of spaghetti but not excessively so.
 
+![yay](/images/pdt1.jpg)
+
 ===
 
 Footnotes:
