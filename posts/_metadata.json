@@ -8,9 +8,18 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "haguro-book-review": {
+    "title": "Book Review: A Religious Study of the Mount Haguro Sect of Shugendo",
+    "slug": "haguro-book-review",
+    "filename": "haguro_book_review",
+    "date": "09/11/2025",
+    "author": "jet/Prussia",
+    "tags": ["religion", "book"],
+    "archived": false
+  },
   "manga-translation-one-rule": {
     "title": "What makes a manga translation good?",
-    "slug": "manga_translation_one_rule",
+    "slug": "manga-translation-one-rule",
     "filename": "manga_translation_one_rule",
     "date": "28/10/2025",
     "author": "prussianbluehedgehog",
