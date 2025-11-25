@@ -268,5 +268,14 @@
     "author": "jet/Prussia",
     "tags": ["code", "project", "web", "build", "docs", "typescript_javascript"],
     "archived": false
+  },
+  "pilanimate": {
+    "title": "PilAnimate Docs",
+    "slug": "pilanimate",
+    "filename": "pilanimate",
+    "date": "Either 2022 or 2021?",
+    "author": "jet/Prussia",
+    "tags": ["code", "project", "animation", "images"],
+    "archived": true 
   }
 }
