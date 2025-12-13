@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "neet-admiration": {
+    "title": "NEETs are good, actually",
+    "slug": "neet-admiration",
+    "filename": "neet_admiration",
+    "date": "13/12/2025",
+    "author": "jet/Prussia",
+    "tags": ["neet", "lifestyle"],
+    "archived": false
+  },
   "haguro-book-review": {
     "title": "Book Review: A Religious Study of the Mount Haguro Sect of Shugendo",
     "slug": "haguro-book-review",
@@ -32,7 +41,7 @@
     "filename": "dns_server_misadventures",
     "date": "05/04/2025",
     "author": "jet/Prussia",
-    "tags": ["dns", "web", "intranet"],
+    "tags": ["dns", "web", "intranet", "complaint"],
     "archived": false
   },
   "the-ming-wm-philosophy": {
