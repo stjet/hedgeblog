@@ -1,4 +1,4 @@
-Hello! This is an **example** post *not meant* to be actually served on the blog. Go to the `gh-pages` branch of the repo for the actual blog posts and stuff.
+Hello! This is an **example** post *not meant* to be actually served on the blog. Go to the `pages` branch of the repo for the actual blog posts and stuff.
 
 [look its a link](https://example.com)
 
