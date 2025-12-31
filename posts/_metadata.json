@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "shimeji-book-club-1-3": {
+    "title": "Shimeji Simulation Book Club: Chapters 1-3",
+    "slug": "shimeji-book-club-1-3",
+    "filename": "shimeji_book_club_1_3",
+    "date": "26/12/2025",
+    "author": "jet/Prussia and prussianbluehedgehog",
+    "tags": ["manga", "commentary_analysis"],
+    "archived": false
+  },
   "neet-admiration": {
     "title": "NEETs are good, actually",
     "slug": "neet-admiration",
@@ -15,7 +24,7 @@
     "date": "13/12/2025",
     "author": "jet/Prussia",
     "tags": ["neet", "lifestyle"],
-    "archived": false
+    "archived": true
   },
   "haguro-book-review": {
     "title": "Book Review: A Religious Study of the Mount Haguro Sect of Shugendo",
@@ -23,7 +32,7 @@
     "filename": "haguro_book_review",
     "date": "09/11/2025",
     "author": "jet/Prussia",
-    "tags": ["religion", "book"],
+    "tags": ["religion", "book", "commentary_analysis"],
     "archived": false
   },
   "manga-translation-one-rule": {
@@ -114,7 +123,7 @@
     "date": "13/12/2023",
     "author": "jet/Prussia",
     "tags": ["cryptography"],
-    "archived": true
+    "archived": false
   },
   "rushed-captcha": {
     "title": "Rushed Captcha Rewrite",

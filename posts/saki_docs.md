@@ -70,7 +70,7 @@ builder.serve_template(renderer, "/", "index.html", {
   notices: [
     "Dave got drunk again and fed the chipmunks. As a result, they are more brazen than usual. Be on your guard!",
     "Please stop anthropomorphizing the rocks. They WILL come alive.",
-    "Oxygen has decided to retire. Until we find a replacement for him, do not be selfish in your consumption of water and air.",
+    "Oxygen has decided to retire. Until we find a replacement for him, be judicious in your consumption of water and air.",
   ],
 });
 

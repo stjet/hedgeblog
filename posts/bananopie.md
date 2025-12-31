@@ -260,3 +260,5 @@ class RPC:
     return resp
   ...
 ```
+
+> There is a Typescript/Javascript equivalent, also written by me, [banani](https://banani.prussia.dev).
