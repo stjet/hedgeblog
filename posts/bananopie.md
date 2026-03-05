@@ -1,5 +1,7 @@
 Bananopie was written with the aim of being the Python equivalent of Banano.js (but better :)) and furthering my understanding of the Nano/Banano protocol. I learned quite a bit about how blocks were constructed and whatnot. Very fun, would recommend.
 
+> There is a Typescript/Javascript equivalent, also written by me, [banani](https://banani.prussia.dev).
+
 Anyways, I think it's acheived that goal, and hopefully went a bit above and beyond in simplicity and powerfulness (it has some useful functions that Banano.js does not, like `send_all` and the old message signing, as well as local work generation).
 
 The only two frustrations I had while writing Bananopie was not knowing whether certain things were big-endian or little-endian, since the Nano docs don't specify (I just tested against the output of Banano.js or wallets), and also dealing with Python's decimal precision fuckery.
@@ -261,4 +263,3 @@ class RPC:
   ...
 ```
 
-> There is a Typescript/Javascript equivalent, also written by me, [banani](https://banani.prussia.dev).

@@ -219,3 +219,11 @@ Here's a very incomplete (and maybe actively updated) list of ones that led to m
 - [Mun (religion)](https://en.wikipedia.org/wiki/Mun_(religion))
 - [Vaqueiros de alzada](https://en.wikipedia.org/wiki/Vaqueiros_de_alzada), nomads in northern Spain
 - [Muslim conquest of Persia](https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia)
+- [Priscillianism](https://en.wikipedia.org/wiki/Priscillianism), ascetical heretical 4th century Christian sect
+- [Ole Miss riot of 1962](https://en.wikipedia.org/wiki/Ole_Miss_riot_of_1962)
+- [Myoe](https://en.wikipedia.org/wiki/My%C5%8De), Japanese buddhist monk who cut off his ear
+- [Kyowa-go](https://en.wikipedia.org/wiki/Kyowa-go)
+- [Four-bar linkage](https://en.wikipedia.org/wiki/Four-bar_linkage)
+- [Tiberius Julius Alexander](https://en.wikipedia.org/wiki/Tiberius_Julius_Alexander), Jewish Roman general who put down Jewish rebellions, and who had Philo as an uncle
+- [Barlaam and Josaphat](https://en.wikipedia.org/wiki/Barlaam_and_Josaphat), Christian saints who probably based on the Buddha
+- [Mandaeism](https://en.wikipedia.org/wiki/Mandaeism), a surviving Gnostic religion venerating John the Baptist

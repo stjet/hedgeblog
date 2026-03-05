@@ -24,7 +24,7 @@ Anyways, once I decided to start completely rewriting the blog, I established so
 ## Code
 Hedgeblog (oh, that's what I'm calling it by the way) is made of three components: Makoto (Markdown to HTML parser), Ryuji (templating language), and Saki (build system).
 
-You can find the code on [Github](https://github.com/jetstream0/hedgeblog).
+You can find the code [here](https://git.elintra.net/stjet/hedgeblog).
 
 ### Makoto
 Makoto is the Markdown-to-HTML parser, made with no dependencies. It was made around two months before Ryuji and Saki, and is meant to be more of a standalone thing. This is the sole npm dependency of the project. I `npm install`ed it instead of just copying the file over mostly because I published Makoto to npm and wanted to make sure it worked. Also, it has a different license, documentation and stuff.

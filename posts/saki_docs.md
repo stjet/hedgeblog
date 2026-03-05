@@ -109,4 +109,4 @@ builder.serve_templates(renderer, [
 ]);
 ```
 
-If a real world example is preferable, [this blog uses Saki](https://github.com/jetstream0/hedgeblog/blob/master/index.ts) to build as a static site.
+If a real world example is preferable, [this blog uses Saki](https://git.elintra.net/stjet/hedgeblog/src/branch/master/index.ts) to build as a static site.

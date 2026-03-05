@@ -6,3 +6,4 @@ A very short (so far) list of blogs/sites I read when HN's been reloaded for the
 - [Matt Lakeman](https://mattlakeman.org): travel and pop history
 - [Richard Stallman](https://stallman.org/articles): digital and human rights
 - [Lwn.net](https://lwn.net/Archives): linux and open source
+- [Gleanings in Buddha-fields](https://nembutsu.cc)

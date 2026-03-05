@@ -1,4 +1,4 @@
-> [ming-wm](https://github.com/stjet/ming-wm) is a window manager for Linux, that writes directly to framebuffer, instead of X windows or Wayland. It is 100% keyboard operated, and retro-themed. Documentation (including where the "philosophy" was originally "published" can be found [here](https://github.com/stjet/ming-wm/tree/master/docs).
+> [ming-wm](https://github.com/stjet/ming-wm) is a window manager for Linux, that writes directly to framebuffer, instead of X windows or Wayland. It is 100% keyboard operated, and retro-themed. Documentation (including where the "philosophy" was originally "published") can be found [here](https://github.com/stjet/ming-wm/tree/master/docs).
 
 ![example 1](/images/ws1.png)
 ![example 2](/images/ws3.png)
