@@ -6,13 +6,14 @@ const port: number = 8042;
 
 createServer((req, res) => {
   let req_path: string;
-  if (!req.url.includes(".")) {
-    req_path = path.join(__dirname, "build", req.url, "index.html");
+  let req_url = req.url ?? ""; //fucking typescript shit. there will be a url trust me
+  if (!req_url.includes(".")) {
+    req_path = path.join(__dirname, "build", req_url, "index.html");
   } else {
-    req_path = path.join(__dirname, "build", req.url);
+    req_path = path.join(__dirname, "build", req_url);
   }
   let status_code = 200;
-  //req.url.includes("..")
+  //req_url.includes("..")
   if (!req_path.startsWith(path.join(__dirname, "build"))) {
     //nice try, bad request
     res.writeHead(400);
