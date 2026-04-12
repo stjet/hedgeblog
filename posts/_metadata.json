@@ -8,11 +8,20 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
-  "Koxinga Browser v1.0.0": {
+  "telo-sewi": {
+    "title": "telo sewi li telo sewi",
+    "slug": "telo-sewi",
+    "filename": "telo_sewi",
+    "date": "05/04/2026",
+    "author": "jet/Prussia",
+    "tags": ["toki_pona", "religion"],
+    "archived": false
+  },
+  "koxinga-browser": {
     "title": "Koxinga Browser v1.0.0",
     "slug": "koxinga",
     "filename": "koxinga",
-    "date": "05/03/2025",
+    "date": "05/03/2026",
     "author": "jet/Prussia and prussianbluehedgehog",
     "tags": ["project", "web"],
     "archived": false

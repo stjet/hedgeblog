@@ -8,7 +8,7 @@ The interface and UX has been overhauled to be more similar to Malvim, the Vim-l
 ![en.wikipedia.org](/images/koxinga_wiki.png)
 ![news.ycombinator.com](/images/koxinga_hn.png)
 
-I plan to mostly use it to browse Wikipedia and HN, so I'm not too worried about the browser becoming useless^[0]^. It's quite unfortunate that so many sites cannot be simply rendered, or even don't work without Javascript. I really miss the many sites that basically only used the `<p>` tag, and maybe some `<b>` and `<img>` if the economy was good.
+I plan to mostly use it to browse Wikipedia and HN, so I'm not too worried about the browser becoming useless^\[0\]^. It's quite unfortunate that so many sites cannot be simply rendered, or even don't work without Javascript. I really miss the many sites that basically only used the `<p>` tag, and maybe some `<b>` and `<img>` if the economy was good.
 
 You can still find a decent amount of these simpler sites, especially on university subdomains, where older professors (rightfully) simply don't see the point in going beyond basic readability, but there's obviously more of these sites going down every year than coming up. Though, things like neocities seem to be "cool" again, in certain circles. Most neocities sites wouldn't really be readable on Koxinga, but another recently popular site, bearblog.dev is perfectly usable with Koxinga.
 
@@ -20,4 +20,4 @@ So I don't think Koxinga is the ideal browser in an ideal world. I would have lo
 
 ===
 
-[0]: It is a great POC app for ming-wm, anyhow. Plus, the development process for Koxinga led me to add several things to ming-wm itself that I realised were kinda important, like font data caching for faster text rendering.
+\[0\]: It is a great POC app for ming-wm, anyhow. Plus, the development process for Koxinga led me to add several things to ming-wm itself that I realised were kinda important, like font data caching for faster text rendering.

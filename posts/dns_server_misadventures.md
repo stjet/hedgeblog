@@ -4,11 +4,11 @@
 
 Let's get a few definitions out of the way first.
 
-DNS stands for the "Domain Name System". To simplify and omit, when you visit a website, DNS is how your computer knows what server to send requests to. After all, what does a domain name (say, prussiafan.club or www.example.com) mean to a computer? Nothing. Your computer doesn't know what to do with this. So, it asks a DNS server what IP address is behind the domain name. Now, an IP address (Internet Protocol address; four 8-bit numbers separated by dots eg 127.0.0.1) is something your computer *does* know how to deal with!
+DNS stands for the "Domain Name System". To simplify and omit, when you visit a website, DNS is how your computer knows what server to send requests to. After all, what does a domain name (say, prussiafan.club or www.example.com) mean to a computer? Nothing. Your computer doesn't know what to do with this. So, it asks a DNS server what IP address is behind the domain name. Now, an IP (Internal Protocol) address (four 8-bit numbers separated by dots for IPv4, eg. 127.0.0.1) is something your computer *does* know how to deal with!
 
 This is not the right place to get into the muck of how the internet works, but an IP address is just like a real address ("10 Downing Street"): there is a *lot* of infrastructure and code that makes it very easy for your computer to find where it is. In contrast, with a domain name, some extra effort needs to be spent: you can't send mail to "That place where that [adjective] Margaret Thatcher used to live", you'd have to figure out the address first.
 
-So, a DNS servers is basically some computer out there that translate domain names into IP addresses.
+So, a DNS server is basically some computer out there that translates domain names into IP addresses.
 
 DoH stands for "DNS over HTTPS". Normally, DNS requests are sent unencrypted to the DNS server, and so is the response. So, any party in-between them could tamper or read the contents of the message, which would be very bad^tm^. The first concern, tampering, is less of a concern nowadays because HTTPS prevents it (since any tamperers will very probably not be able to get HTTPS certificates for the domain they are pretending to be). The second is very real, and can be used for censorship or sale of data to advertisers. Well, it does need to be noted that it is usually the DNS servers themselves doing the censorship and selling data. DNSSEC allows for signing records, which means any tampering (including by the DNS server itself!) is obvious, but doesn't prevent spying on the DNS messages. Also, it is not very commonly used. DoT (DNS over TLS) encrypts the messages between the client (your computer) and the DNS server, which prevents tampering and spying by anyone in-between. DoH is very similar to DoT, but instead of using the low level TLS protocol, DNS messages are sent using HTTPS to a domain which acts like a DNS server. The advantage is that DoH requests are very hard to censor as they look like any other HTTPS request, while DoT can easily be blocked because they look unique and go to a unique port.
 
@@ -22,7 +22,7 @@ The second is a DNS server for BNS (Banano Name System). BNS allows infinite, de
 
 ## Actually writing the thing
 
-The first hurdle was, of course, to actually write the server - parse the DNS request and give a response. Luckily, this is all well documented in RFC 1035 (which covers the DNS message format) and RFC 8484 (which covers how DNS over HTTPS works). Alright, "well documented" is not entirely accurate, but it is documented *enough*. What was unclear or confusing clarified with the help of the TCP/IP guide, logging actual requests/responses, and in one case, a random blog post. In my case, I mainly wanted DoH to work for browsers, so there some parts of the protocol I could ignore. I'll somewhat briefly summarise the relevant parts of the format.
+The first hurdle was, of course, to actually write the server - parse the DNS request and give a response. Luckily, this is all well documented in RFC 1035 (which covers the DNS message format) and RFC 8484 (which covers how DNS over HTTPS works). Alright, "well documented" is not entirely accurate, but it is documented *enough*. What was unclear or confusing was clarified with the help of the TCP/IP guide, logging actual requests/responses, and in one case, a random blog post. In my case, I mainly wanted DoH to work for browsers, so there were some parts of the protocol I could ignore. I'll briefly summarise the relevant parts of the format.
 
 ### Message format
 
@@ -85,7 +85,7 @@ RDATA is the actual data, and is variable length. Again, if the record we are re
 
 So, wonderful. We parse the query message, see what domain it is requesting, if it is a intranet domain, we then copy the query message, change it a bit, and append our CNAME/A record answer.
 
-But I probably want to visit normal websites too. This current setup isn't aware of say, wikipedia.org's existence, that's not an intranet domain! So, our poor server would have to query the root domain to find the DNS server for `.org`, then query that server for `wikipedia.org`'s nameservers, then query those namesevers for the actual record. Sounds like an awful lot of work.... which we can avoid entirely! We'll just route queries for non-intranet TLDs/domains to another DoH service, like NextDNS, Cloudflare, or Mullvad's. They'll handle everything, and we can just proxy whatever they return.
+But I probably want to visit normal websites too. This current setup isn't aware of say, wikipedia.org's existence; that's not an intranet domain! So, our poor server would have to query the root domain to find the DNS server for `.org`, then query that server for `wikipedia.org`'s nameservers, then query those namesevers for the actual record. Sounds like an awful lot of work.... which we can avoid entirely! We'll just route queries for non-intranet TLDs/domains to another DoH service, like NextDNS, Cloudflare, or Mullvad's. They'll handle everything, and we can just proxy whatever they return.
 
 Ok, now are we done?
 

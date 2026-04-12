@@ -12,11 +12,11 @@ Back on topic, the author cited [brutalist-web.design](https://brutalist-web.des
 - Decoration when needed and no unrelated content.
 - Performance is a feature.
 
-Well, that's weird. Most, with the exception of the 6th bullet point, seem mostly like what people would expect of a decent normal website, as opposed to anything specific to brutalist design.
+Well, that's weird. Most, with the exception of the 6th bullet point, seem mostly like what people would expect of a decent normal website, as opposed to anything specific to brutalist design (Fellas, is it brutalist to have a usable website?).
 
 Now let me read what the brutalist-web.design guy [has to say](https://brutalist-web.design/#decoration) about that very load-bearing 6th bullet:
 
->  A website is neither an application nor a video game. It is for content, and so its design must serve that purpose. Being true to these materials need not imply a boring website or require that all sites look the same.
+> A website is neither an application nor a video game. It is for content, and so its design must serve that purpose. Being true to these materials need not imply a boring website or require that all sites look the same.
 
 Well, I suppose that seems reasonable, though I'm not sure if this is specific to brutalist design. I'm going to skip the next paragraph and go to the last two:
 
