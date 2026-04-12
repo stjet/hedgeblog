@@ -39,7 +39,8 @@ export class Renderer {
       return `${path1.slice(0, path1.length-1)}${path2}`;
     } else if ((!path1.endsWith("/") && path2.startsWith("/")) || (path1.endsWith("/") && !path2.startsWith("/"))) {
       return `${path1}${path2}`;
-    } else if (!path1.endsWith("/") && !path2.startsWith("/")) {
+    } else {
+    //} else if (!path1.endsWith("/") && !path2.startsWith("/")) {
       return `${path1}/${path2}`;
     }
   }
@@ -133,7 +134,7 @@ export class Renderer {
           if (var_value.length === 0) {
             //skip straight to the endfor
             let sliced = matches.slice(index+1, matches.length);
-            let new_index: number;
+            let new_index: number | undefined;
             let extra_fors: number = 0;
             for (let i=0; i < sliced.length; i++) {
               if (sliced[i][0].startsWith("[[ for:")) {
@@ -198,7 +199,7 @@ export class Renderer {
           }
           let var_value2 = Renderer.get_var(var_name2, vars);
           if (if_in) {
-            var_value2 = var_value2.find((ele) => ele === var_value);
+            var_value2 = var_value2.find((ele: any) => ele === var_value);
           }
           if (if_not) {
             //make sure the two compared variables are NOT equal
@@ -232,6 +233,7 @@ export class Renderer {
               extra_ifs--;
             }
           }
+          // @ts-ignore
           if (typeof new_index === "undefined") throw Error("`if:` statement missing an `[[ endif ]]`");
           index += new_index+1;
           continue;
@@ -257,8 +259,8 @@ export class Renderer {
           if (current_last[i] !== " ") break;
           indentation++;
         }
-        let var_lines: string[] = var_value.split("\n");
-        let var_first: string = var_lines.shift();
+        let var_lines: string[] = var_value.split("\n") as string[]; //dunno why typescript thinks it could be undefined
+        let var_first: string = var_lines.shift() as string; //we know var_lines has at least one element
         //append spaces
         var_value = var_lines.length === 0 ? var_first : var_first+"\n"+var_lines.map((var_line) => " ".repeat(indentation)+var_line).join("\n");
         if (exp_parts[0] === "html") {
