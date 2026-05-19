@@ -25,7 +25,7 @@ createServer((req, res) => {
     req_path = path.join(__dirname, "build", "404.html");
   }
   //set content type
-  let non_utf8_content_types: string[] = ["image/png", "image/gif", "image/jpeg", "video/mp4"];
+  let non_utf8_content_types: string[] = ["image/png", "image/gif", "image/jpeg", "video/mp4", "font/woff2"];
   let content_type: string;
   switch (req_path.split(".")[1]) {
     case "html":
@@ -52,6 +52,9 @@ createServer((req, res) => {
       break;
     case "mp4":
       content_type = "video/mp4";
+      break;
+    case "woff2":
+      content_type = "font/woff2";
       break;
     default:
       content_type = "text/plain";
