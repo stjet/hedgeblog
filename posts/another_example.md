@@ -12,3 +12,7 @@ Illum id sit laboriosam corrupti veritatis et quam. Ut ea quaerat omnis doloribu
 Molestias omnis ut voluptatem. Eius vel deleniti quia quam odio. Adipisci voluptas dolor nulla voluptatem. Molestiae sunt veritatis qui ex atque molestiae nobis. Expedita repellat dolores adipisci.
 
 Deleniti totam molestiae necessitatibus rem dolores. Natus ut quos beatae aut. Corrupti eum provident perferendis eum dolores maiores eos.
+
+```toki-pona
+󱥠󱥍󱤾󱤼
+```
