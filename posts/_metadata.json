@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "logical-people": {
+    "title": "The Problem with 'Rational' People",
+    "slug": "logical-people",
+    "filename": "logical_people",
+    "date": "15/06/2026",
+    "author": "jet/Prussia",
+    "tags": ["complaint"],
+    "archived": false
+  },
   "telo-sewi": {
     "title": "telo sewi li telo sewi",
     "slug": "telo-sewi",
@@ -303,6 +312,6 @@
     "date": "Either 2022 or 2021?",
     "author": "jet/Prussia",
     "tags": ["code", "project", "animation", "images"],
-    "archived": true 
+    "archived": true
   }
 }

@@ -17,7 +17,7 @@ The book and Shimeji Simulation share many thematic similarities. Both explore h
 
 Both (but especially Shimeji Simulation, with the hole digging machine and Shimeji's older sister's inventions) are now especially important to read and reflect on, with the rise of "AI" and the general trend of ownership turning into rentership. With these worries already posing an existential threat to human livelihoods, creativity, and meaning, how do we manage?
 
-That is obviously a complicated question, and one for another time^\[3\]^. I personally found both the old man's grit, and Shimeji's indifference to death admirable, though I'd have to think about "why".
+That is obviously a complicated question, and one that Shimeji Simulation does cover... I think? But we'll get to that later. I personally found both the old man's grit, and Shimeji's indifference to death admirable, though I'd have to think about "why".
 
 ## Chapter 2: The Catcher in the Rye
 ### Cynicism vs. Apathy
@@ -28,7 +28,7 @@ This book is alright. It seemed to me like the protagonist, Holden, an angsty Am
 
 On the surface, Holden and Shimeji seem similar. Both previously suffered some kind of unpleasant event (the death of Holden's brother, the incident that made Shimeji dislike school, mentioned but unelaborated upon in chapter 1). Both are youths that are isolated from other people, and are unsure of their place in the world.
 
-They are fundamentally different, however. Holden's misanthropy is a reaction to his attempts at connection with others failing. He is angry about others not acting the way he expects him to, and believes that they are in the wrong, that adults are all "phonies". After failing to find what he wants (meaning, sex, or friends), Holden believes the solution is just to run away and minimally interact with others. He prefers the innocence of childhood (his younger sister is the one who ultimately convinces him not to run away), and behaves in a childlike manner^\[4\]^. He is both cynical and naive.
+They are fundamentally different, however. Holden's misanthropy is a reaction to his attempts at connection with others failing. He is angry about others not acting the way he expects him to, and believes that they are in the wrong, that adults are all "phonies". After failing to find what he wants (meaning, sex, or friends), Holden believes the solution is just to run away and minimally interact with others. He prefers the innocence of childhood (his younger sister is the one who ultimately convinces him not to run away), and behaves in a childlike manner^\[3\]^. He is both cynical and naive.
 
 Shimeji's misanthropy is not misanthropy at all. Shimeji doesn't hate anyone, she just does not believe that interacting with others has any real value. She is apathetic to most things, but is not a nihilist, not cynical, and not naive. After all, she did presumably study for the senior high school exams, and she does go to school. I initially interpreted Shimeji going to school and going along with Majime's antics as a deep but hidden desire to connect with others (ie, apathy is not her "true" nature), but I now think otherwise. Shimeji strikes me as a person who thinks life is a bit of a chore. She wants to take the path of least resistance, and have everything pass by quicker. So, she indulges Majime, and because of the norms of modern society, goes to school. Of course, her character eventually changes, and she finds value in her friends and Majime. Holden does change a little by the end, but whether the change is significant is questionable.
 
@@ -37,11 +37,11 @@ Shimeji's misanthropy is not misanthropy at all. Shimeji doesn't hate anyone, sh
 
 This short children's book, by Lewis Carroll, is a little different from the other two. On the last page of chapter 3, Shimeji compares Majime leading her to join the bizarre hole digging club to the White Rabbit leading her down the rabbit hole to a bizarre world.
 
-It is a children's book, it did popularise surreal fiction, and it does have immense cultural influence, so I won't be overly harsh. It wasn't a bad read by any means, but I was glad it was only twelve chapters. The poems did start to grow on me by the end though, and some parts were amusing^\[5\]^.
+It is a children's book, it did popularise surreal fiction, and it does have immense cultural influence, so I won't be overly harsh. It wasn't a bad read by any means, but I was glad it was only twelve chapters. The poems did start to grow on me by the end though, and some parts were amusing^\[4\]^.
 
 I took most of it at face value, though clearly the author put in some critiques (for example, the Duchess' obsession with everything neededing to have a moral, is probably a jab at childrens' education at the time).
 
-What stood out to me most was Alice's reactions to the strange situations she found herself in. While she wasn't a stoic^\[6\]^ (she cries a small lake of tears), she seems to adjust surprisingly well. As children, the world defies our idea of how it ought to be, or how we are told it is; so maybe this is not much different for her. When reading Shimeji Simulation, I noticed the characters seemed similarly nonchalant and adaptive, at least relative to their situation of the fabric of reality changing completely. Shimeji may have been apathetic from the start, and never had that firm an attachment to the previous reality, but the nonchalantness is true for everyone. The world of Shimeji Simulation may be one much more laid-back and less stubborn than ours.
+What stood out to me most was Alice's reactions to the strange situations she found herself in. While she wasn't a stoic^\[5\]^ (she cries a small lake of tears), she seems to adjust surprisingly well. As children, the world defies our idea of how it ought to be, or how we are told it is; so maybe this is not much different for her. When reading Shimeji Simulation, I noticed the characters seemed similarly nonchalant and adaptive, at least relative to their situation of the fabric of reality changing completely. Shimeji may have been apathetic from the start, and never had that firm an attachment to the previous reality, but the nonchalantness is true for everyone. The world of Shimeji Simulation may be one much more laid-back and less stubborn than ours.
 
 Then again, is the world of Alice or Shimeji so different to ours? Yes, obviously on a mundane level our world doesn't have talking rabbits, or perpetual motion machines. But absurd, surreal things happen all the time in our world. By and large, most people don't seem to be too freaked about it.
 
@@ -49,7 +49,6 @@ Then again, is the world of Alice or Shimeji so different to ours? Yes, obviousl
 \[0\]: Why not? How unusual. [wasona](wasona.com) is a great way to learn
 \[1\]: xrussianfanclub \[at\] xrotonmail \[dot\] com, xrussia \[at\] xrussia \[dot\] dev, except change all x's to p's
 \[2\]: Hemingway's "For Whom the Bell Tolls" must too, be recommended. Thematically, it feels quite similar. "The Sun Also Rises", also by Hemingway, is quite different, but also good. That book almost seems like an earlier stage of an evolution into the themes of other two books. By that, I mean that the themes of emptiness and disillusionment with the hedonistic life ("The Sun Also Rises") seem as if they could naturally progress to the acceptance of struggle (in the other two books). Curiously, "For Whom the Bell Tolls" and "The Old Man and the Sea" were in fact written decades after "The Sun Also Rises".
-\[3\]: Hemingway ended up killing himself after suffering from injuries and sickness. I fear this may be insensitive, but I wonder if he would have considered this contrary to the values expressed in "The Old Man and the Sea". I don't know, but I don't fault him for doing what he did
-\[4\]: There are many instances, but the title of the book being Holden's mishearing of a poem proves to me Holden's childlike nature
-\[5\]: I normally like puns and wordplay (Shimeji Simulation has tons!), but I only found one or two funny...
-\[6\]: In the colloquial sense
+\[3\]: There are many instances, but the title of the book being Holden's mishearing of a poem proves to me Holden's childlike nature
+\[4\]: I normally like puns and wordplay (Shimeji Simulation has tons!), but I only found one or two funny...
+\[5\]: In the colloquial sense
