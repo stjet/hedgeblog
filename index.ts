@@ -5,6 +5,7 @@ import { Renderer } from "./ryuji.js";
 import { Builder } from "./saki.js";
 import _posts_metadata from "./posts/_metadata.json";
 import _site_info from "./site_info.json";
+import _quotes from "./quotes.json";
 
 export interface PostMetadata {
   title: string;
@@ -32,6 +33,11 @@ export interface SiteInfo {
   title: string;
   url: string;
   icon: string;
+}
+
+export interface Quote {
+  content: string;
+  from: string;
 }
 
 let renderer: Renderer = new Renderer("templates", "components");
@@ -155,5 +161,11 @@ builder.serve_template(renderer, "/atom.xml", "atom.xml", {
   site_info,
   recent_posts: posts_rss,
   last_updated: global_last_updated,
+});
+
+const quotes: Quote[] = _quotes.quotes;
+
+builder.serve_template(renderer, "/quotes", "quotes", {
+  quotes,
 });
 
