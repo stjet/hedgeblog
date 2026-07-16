@@ -8,6 +8,15 @@
     "tags": ["meta", "code", "project", "web", "markdown", "typescript_javascript", "css"],
     "archived": false
   },
+  "books-and-other-things": {
+    "title": "Books and Other Things",
+    "slug": "books-and-other-things",
+    "filename": "books_and_other_things",
+    "date": "16/07/2026",
+    "author": "jet/Prussia",
+    "tags": ["book", "other_things"],
+    "archived": false
+  },
   "logical-people": {
     "title": "The Problem with 'Rational' People",
     "slug": "logical-people",
@@ -23,7 +32,7 @@
     "filename": "telo_sewi",
     "date": "05/04/2026",
     "author": "jet/Prussia",
-    "tags": ["toki_pona", "religion"],
+    "tags": ["toki_pona", "religion", "other_things"],
     "archived": false
   },
   "koxinga-browser": {
@@ -42,7 +51,7 @@
     "date": "26/12/2025",
     "author": "jet/Prussia and prussianbluehedgehog",
     "tags": ["manga", "commentary_analysis"],
-    "archived": false
+    "archived": true
   },
   "haguro-book-review": {
     "title": "Book Review: A Religious Study of the Mount Haguro Sect of Shugendo",
@@ -285,7 +294,7 @@
     "date": "27/01/2022",
     "author": "jet/Prussia",
     "tags": ["code", "web", "typescript_javascript"],
-    "archived": false
+    "archived": true
   },
   "ryuji-docs": {
     "title": "Ryuji Documentation",
@@ -293,7 +302,7 @@
     "filename": "ryuji_docs",
     "date": "02/08/2023",
     "author": "jet/Prussia",
-    "tags": ["code", "project", "web", "docs", "typescript_javascript"],
+    "tags": ["code", "project", "web", "docs", "typescript_javascript", "meta"],
     "archived": false
   },
   "saki-docs": {
